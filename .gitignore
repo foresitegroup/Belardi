@@ -41,3 +41,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+inc/dbconfig.php
+news/*
+!news/wp-content/
+news/wp-content/*
+!news/wp-content/themes/
+news/wp-content/themes/*
+!news/wp-content/themes/belardi
