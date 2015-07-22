@@ -101,7 +101,7 @@ include "header.php";
       <script type="text/javascript" src="inc/twitterFetcher.js"></script>
       <script>
         var config1 = {
-          "id": '611538467353333761',
+          "id": '623913908877701120',
           "domId": 'twitter-feed',
           "maxTweets": 10,
           "enableLinks": true,
@@ -160,8 +160,8 @@ include "header.php";
       <script type="text/javascript">
         var userFeed = new Instafeed({
           get: 'user',
-          userId: 1702006231,
-          accessToken: '1702006231.467ede5.4a8f4575ac824a41a459f1a32e640713',
+          userId: 36105938,
+          accessToken: '36105938.467ede5.271adab5a0bc423aade7dfc6f6f791f1',
           limit: 12,
           template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>'
         });
@@ -169,7 +169,7 @@ include "header.php";
       </script>
       <div id="instafeed"></div>
 
-      <a href="https://instagram.com/foresitegrp" class="linkarrow">MORE</a>
+      <a href="https://instagram.com/belardiracing" class="linkarrow">MORE</a>
     </div>
 
     <div class="three-col last">

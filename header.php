@@ -51,7 +51,7 @@
           <div class="social social-header">
             <a href="https://twitter.com/belardiracing"><i class="fa fa-twitter"></i></a>
             <a href="https://www.facebook.com/BelardiAutoRacing"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="https://instagram.com/belardiracing"><i class="fa fa-instagram"></i></a>
           </div> <!-- END social -->
         </div> <!-- END content-width -->
       </div> <!-- END header-black -->
