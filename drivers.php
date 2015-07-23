@@ -4,6 +4,8 @@ $Banner = "sub-banner-drivers.jpg";
 include "header.php";
 ?>
 
+<script type="text/javascript" src="inc/instafeed.min.js"></script>
+
 <div class="content-width main-content" style="text-align: center;">
   <strong>Belardi Auto Racing</strong> team is a team with cars competing in the Cooper Tires USF2000 Championship Presented by Mazda, as well as Firestone Indy Lights Championship under the IZOD IndyCar Series' Mazda Road to Indy development program.<br>
   <br>
@@ -76,10 +78,21 @@ include "header.php";
     <div class="three-col last">
       <h3><a href="https://twitter.com/jpiedrahita77">@JPIEDRAHITA77</a></h3>
 
-      <img src="images/piedrahita-image-group.png" alt="" style="margin: 1em 0;">
+      <script type="text/javascript">
+        var userFeed = new Instafeed({
+          get: 'user',
+          userId: 479419864,
+          accessToken: '479419864.467ede5.52d04f84372b4ecb8feef8e064ae61fc',
+          limit: 12,
+          template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>',
+          target: 'if-piedrahita'
+        });
+        userFeed.run();
+      </script>
+      <div id="if-piedrahita" class="instafeed"></div>
 
       <div class="soclinks">
-        <a href="https://www.facebook.com/juan.piedrahita.351">FACEBOOK</a> | <a href="https://twitter.com/jpiedrahita77">TWITTER</a> | <a href="#">INSTAGRAM</a>
+        <a href="https://www.facebook.com/juan.piedrahita.351">FACEBOOK</a> | <a href="https://twitter.com/jpiedrahita77">TWITTER</a> | <a href="https://instagram.com/juanpiedrahitac/">INSTAGRAM</a>
       </div>
     </div>
 
@@ -96,8 +109,7 @@ include "header.php";
 
     <div style="text-align: center;">
       <h3>THE TEAM</h3>
-      Who are we? Discover who makes the Belardi Team.<br>
-      <i class="fa fa-angle-down"></i>
+      <a href="team.php">Who are we? Discover who makes the Belardi Team.<br><i class="fa fa-angle-down"></i></a>
     </div>
   </div>
 </div>

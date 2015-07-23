@@ -4,17 +4,10 @@
     <a href="<?php echo $TopDir; ?>about.php">ABOUT <i class="fa fa-angle-down"></i></a>
     <ul>
       <li><a href="<?php echo $TopDir; ?>media.php">MEDIA</a></li>
-      <li><a href="#">SHOP</a></li>
     </ul>
   </li>
   <li><a href="<?php echo $TopDir; ?>news">NEWS</a></li>
-  <li>
-    <a href="<?php echo $TopDir; ?>team.php">TEAM <i class="fa fa-angle-down"></i></a>
-    <ul>
-      <li><a href="#">FIRESTONE INDY LIGHTS</a></li>
-      <li><a href="#">USF200</a></li>
-    </ul>
-  </li>
+  <li><a href="<?php echo $TopDir; ?>team.php">TEAM</a></li>
   <li class="logo"><a href="<?php echo $TopDir; ?>."><img src="<?php echo $TopDir; ?>images/logo.png" alt="Belardi Auto Racing"></a></a>
   <li><a href="<?php echo $TopDir; ?>drivers.php">DRIVERS</a></li>
   <li><a href="<?php echo $TopDir; ?>schedule.php">SCHEDULE</a></li>

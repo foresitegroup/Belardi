@@ -7,26 +7,26 @@ include "header.php";
   <p class="cycle-pager"></p>
   <div style="background: url(images/banner1.jpg) center center no-repeat;">
     <div>
-      <h1>INDY LIGHTS CHAMPION</h1>
-      Belardi Driver Gabby Chaves takes podium at Indy Lights!<br>
+      <h1>OUR ROAD TO INDY</h1>
+      Follow our progress, races run through September.<br>
       <br>
-      <a href="#">FULL STORY</a>
-    </div>
-  </div>
-  <div style="background: url(images/banner2.jpg) center center no-repeat;">
-    <div>
-      <h1>MORE COPY NEEDED</h1>
-      This is just a temporary slide<br>
-      <br>
-      <a href="#">FULL STORY</a>
+      <a href="schedule.php">FULL SCHEDULE</a>
     </div>
   </div>
   <div style="background: url(images/banner3.jpg) center center no-repeat;">
     <div>
-      <h1>AND HERE TOO</h1>
-      Another temporary slide<br>
+      <h1>ON THE PODIUM</h1>
+      Felix &amp; Juan take the podium!<br>
       <br>
-      <a href="#">FULL STORY</a>
+      <a href="drivers.php">OUR DRIVERS</a>
+    </div>
+  </div>
+  <div style="background: url(images/banner4.jpg) center center no-repeat;">
+    <div>
+      <h1>BEHIND THE SCENES</h1>
+      Learn more about the Belardi Racing team<br>
+      <br>
+      <a href="about.php">READ MORE</a>
     </div>
   </div>
 </div> <!-- END cycle-slideshow -->
@@ -39,7 +39,7 @@ include "header.php";
         <br>
         For the 2014 racing season, Belardi Auto Racing has 2 Indy Lights Drivers and 3 USF2000 drivers.<br>
         <br>
-        <a href="driver.php" class="linkarrow" style="font-weight: bold;">OUR DRIVERS</a>
+        <a href="drivers.php" class="linkarrow" style="font-weight: bold;">OUR DRIVERS</a>
       </div>
 
       <div class="right-vert-div nextevent">
@@ -75,7 +75,7 @@ include "header.php";
           <?php echo $row['track']; ?><br>
           <?php echo $row['tracktype']; ?><br>
           <br>
-          <a href="schedule.php" class="linkarrow" style="font-weight: bold;">RACE DETAILS</a>
+          <a href="<?php echo $row['details']; ?>" class="linkarrow" style="font-weight: bold;">RACE DETAILS</a>
         </div>
 
         <div style="clear: both;"></div>
@@ -167,7 +167,7 @@ include "header.php";
         });
         userFeed.run();
       </script>
-      <div id="instafeed"></div>
+      <div id="instafeed" class="instafeed"></div>
 
       <a href="https://instagram.com/belardiracing" class="linkarrow">MORE</a>
     </div>
@@ -204,7 +204,7 @@ include "header.php";
         </table>
       </div>
 
-      <a href="#" class="linkarrow">FULL SCHEDULE</a>
+      <a href="schedule.php" class="linkarrow">FULL SCHEDULE</a>
     </div>
 
     <div style="clear: both;"></div>

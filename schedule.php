@@ -33,7 +33,7 @@ include "header.php";
     <tr>
       <td class="col1"><?php echo $row['round']; ?><br><span><?php echo date("F j", $row['startdate']) . $enddate; ?></span></td>
       <td class="col2"><?php echo $row['location']; ?> / <?php echo $row['track']; ?></td>
-      <td class="col3"><a href="#" class="linkarrow">DETAILS</a></td>
+      <td class="col3"><a href="<?php echo $row['details']; ?>" class="linkarrow">DETAILS</a></td>
       <td class="col4"><img src="images/tracks/<?php echo $row['trackimg']; ?>" alt="<?php echo $row['track']; ?>"></td>
     </tr>
     <?php

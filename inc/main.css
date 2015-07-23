@@ -589,13 +589,13 @@ NAV:before, NAV:after { content: ""; display: table; }
   padding-top: 0.2em;
 }
 
-#instafeed {
+.instafeed {
   padding-top: 0.7em;
   height: 300px;
   overflow: hidden;
 }
 
-#instafeed IMG {
+.instafeed IMG {
   width: 30%;
   height: auto;
   margin: 0 10px 6px 0;
@@ -968,7 +968,7 @@ INPUT[type="submit"]:hover {
 
 .black H3 {
   color: #D5B576;
-  font-size: 2.75em;
+  font-size: 2.5em;
 }
 
 .black H4 {
@@ -1011,6 +1011,10 @@ INPUT[type="submit"]:hover {
 .drivers .three-col.last {
   font-size: 87.5%;
   color: #CCCCCC;
+}
+
+.drivers .three-col .instafeed {
+  margin: 0.5em 0;
 }
 
 .drivers .three-col .soclinks A:link, .drivers .three-col .soclinks A:visited {
@@ -1075,6 +1079,10 @@ INPUT[type="submit"]:hover {
 
 
 @media only screen and (min-width: 1600px) {
+  .cycle-slideshow DIV {
+    background-size: cover !important;
+  }
+
   .parallax-layer {
     margin: 0;
     left: 0;
@@ -1112,7 +1120,7 @@ INPUT[type="submit"]:hover {
     font-size: 2.1em;
   }
 
-  #instafeed IMG {
+  .instafeed IMG {
     margin: 0 7px 4px 0;
   }
 
@@ -1388,16 +1396,16 @@ INPUT[type="submit"]:hover {
     width: 7%;
   }
   
-  #instafeed {
+  .instafeed {
     height: auto;
   }
 
-  #instafeed IMG {
+  .instafeed IMG {
     width: 23.65%;
     margin: 0 1.8% 6px 0;
   }
 
-  #instafeed A:nth-child(4n) IMG {
+  .instafeed A:nth-child(4n) IMG {
     margin-right: 0;
   }
 
@@ -1531,7 +1539,7 @@ INPUT[type="submit"]:hover {
     width: 15%;
   }
 
-  #instafeed IMG {
+  .instafeed IMG {
     margin: 0 1.8% 3px 0;
   }
 

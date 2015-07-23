@@ -94,9 +94,7 @@ include "header.php";
     <br>
 
     <h3>DRIVERS</h3>
-      Discover the talent behind the wheel.<br>
-      <i class="fa fa-angle-down"></i>
-    </div>
+    <a href="drivers.php">Discover the talent behind the wheel.<br><i class="fa fa-angle-down"></i></a>
   </div>
 </div>
 
