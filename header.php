@@ -20,11 +20,16 @@
     
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.cycle2.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.film_roll.min.js"></script>
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/bootstrap-collapse.js"></script>
+    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/jquery.fancybox.css">
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.fancybox.pack.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
         $(".fancybox").fancybox();
+        $(".team-slideshow").cycle();
+        var film_roll = new FilmRoll({ container: '#film-roll', scroll: false, pager: false, interval: 1, height: "364px" });
         $("#video-header").mb_YTPlayer(); // This needs to be last for some reason
       });
     </script>

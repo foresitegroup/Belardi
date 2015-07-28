@@ -5,9 +5,6 @@ $Video = "AMxgEBi27L4";
 include "header.php";
 ?>
 
-<link rel="stylesheet" href="inc/jquery.fancybox.css">
-<script type="text/javascript" src="inc/jquery.fancybox.pack.js"></script>
-
 <div class="black">
   <div class="content-width media">
     <h1>MEDIA GALLERY</h1>

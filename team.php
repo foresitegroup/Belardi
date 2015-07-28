@@ -13,29 +13,25 @@ include "header.php";
 
 <div class="black">
   <div class="content-width">
-    <div class="two-col">
+    <div class="three-col">
       <img src="images/brian-belardi.jpg" alt="Brian Belardi"><br>
       <strong>BRIAN BELARDI</strong><br>
       Team Owner
     </div>
 
-    <div class="two-col last">
+    <div class="three-col">
       <img src="images/joe-brunner.jpg" alt="Joe Brunner"><br>
       <strong>JOE BRUNNER</strong><br>
       Team Owner
     </div>
 
-    <div style="clear: both;"></div><br>
-    <br>
-    <br>
-
-    <div class="sideline"><h2>Indy Lights Series</h2></div>
-
-    <div class="three-col">
+    <div class="three-col last">
       <img src="images/kent-boyer.jpg" alt="Kent Boyer"><br>
       <strong>KENT BOYER</strong><br>
       Engineer
     </div>
+
+    <div style="clear: both;"></div>
 
     <div class="three-col">
       <img src="images/mike-meyer.jpg" alt="Mike Meyer"><br>
@@ -43,24 +39,36 @@ include "header.php";
       Mechanic
     </div>
 
+    <div class="three-col">
+      <img src="images/jonathan-ghormley.jpg" alt="Jonathan Ghormley"><br>
+      <strong>JONATHAN GHORMLEY</strong><br>
+      Mechanic
+    </div>
+
     <div class="three-col last">
-      <img src="images/tom-vasi.jpg" alt="Tom Vasi"><br>
-      <strong>TOM VASI</strong><br>
+      <img src="images/kyle-burch.jpg" alt="Kyle Burch"><br>
+      <strong>KYLE BURCH</strong><br>
       Mechanic
     </div>
 
     <div style="clear: both;"></div>
 
     <div class="three-col">
-      <img src="images/brian-hornick.jpg" alt="Brian Hornick"><br>
-      <strong>BRIAN HORNICK</strong><br>
+      <img src="images/len-paskus.jpg" alt="Len Paskus"><br>
+      <strong>LEN PASKUS</strong><br>
       Mechanic
+    </div>
+
+    <div class="three-col">
+      <img src="images/ross-mcleod.jpg" alt="Ross McLeod"><br>
+      <strong>ROSS MCLEOD</strong><br>
+      Engineer
     </div>
 
     <div class="three-col last">
       <img src="images/elliot-nunn.jpg" alt="Elliot Nunn"><br>
       <strong>ELLIOT NUNN</strong><br>
-      Mechanic
+      Transportation/Logistics
     </div>
 
     <div style="clear: both;"></div><br>
@@ -68,20 +76,14 @@ include "header.php";
     <br>
   </div>
 
-  <div id="port">
-    <!-- List must be spaceless becuse <li>s are display: inline, and any spaces between them show in IE -->
-    <ul class="parallax-layer">
-      <li><img src="images/gallery/team1.jpg"></li><li><img src="images/gallery/team2.jpg"></li><li><img src="images/gallery/team3.jpg"></li>
-    </ul>
+  <div id="film-roll">
+    <div><img src="images/gallery/team2.jpg"><div class="overlay"></div></div>
+    <div><img src="images/gallery/team3.jpg"><div class="overlay"></div></div>
+    <div><img src="images/gallery/team4.jpg"><div class="overlay"></div></div>
+    <div><img src="images/gallery/team5.jpg"><div class="overlay"></div></div>
+    <div><img src="images/gallery/team6.jpg"><div class="overlay"></div></div>
+    <div><img src="images/gallery/team1.jpg"><div class="overlay"></div></div>
   </div>
-
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
-  <script src="inc/jquery.parallax.min.js"></script>
-  <script type="text/javascript">
-    jQuery(document).ready(function(){
-      jQuery('.parallax-layer').parallax({ mouseport: jQuery("#port"), yparallax: false });
-    });
-  </script>
 
   <div class="content-width" style="text-align: center;">
     <br>

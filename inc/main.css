@@ -374,8 +374,8 @@ NAV:before, NAV:after { content: ""; display: table; }
   -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
   -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
   box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
-  background: #000000 url(../images/video-header.jpg) top center no-repeat !important;
-  background-size: cover !important;
+  background: url(../images/loading.gif) center center no-repeat, #000000 url(../images/video-header.jpg) top center no-repeat !important;
+  background-size: auto, cover !important;
 }
 
 .YTPOverlay {
@@ -1040,30 +1040,24 @@ INPUT[type="submit"]:hover {
   height: 320px;
 }
 
-#port {
-  overflow: hidden;
-  position: relative;
-  height: 364px;
-  background: #111111;
-}
-
-.parallax-layer {
+.film_roll_child .overlay {
+  width: 100%;
+  height: 100px;
+  min-height: 100%;
+  background-color: #111111;
   position: absolute;
-  list-style: none;
-  white-space: nowrap;
-  padding: 0;
-  margin: 0 0 0 25%;
-  left: -50%; /* initial position */
+  left: 0px;
+  top: 0px;
+  opacity: 0.70;
+  z-index: 0;
 }
 
-.parallax-layer LI {
-  display: inline;
-  margin-right: 1%;
+.film_roll_child.active {
+  margin: 0 1em;
 }
 
-.parallax-layer LI IMG {
-  width: auto;
-  height: 364px;
+.film_roll_child.active .overlay {
+  display: none;
 }
 
 .entry-content {
@@ -1081,11 +1075,6 @@ INPUT[type="submit"]:hover {
 @media only screen and (min-width: 1600px) {
   .cycle-slideshow DIV {
     background-size: cover !important;
-  }
-
-  .parallax-layer {
-    margin: 0;
-    left: 0;
   }
 }
 
@@ -1161,10 +1150,6 @@ INPUT[type="submit"]:hover {
   .drivers H3 {
     font-size: 2em;
   }
-
-  .parallax-layer {
-    margin-left: -15%;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1206,30 +1191,6 @@ INPUT[type="submit"]:hover {
 
   .drivers H3 {
     font-size: 1.8em;
-  }
-  
-  #port {
-    height: auto;
-    overflow: visible;
-    text-align: center;
-  }
-
-  .parallax-layer {
-    position: static;
-    left: 0;
-    margin: 0;
-    white-space: normal;
-  }
-
-  .parallax-layer LI {
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 1.5em;
-  }
-
-  .parallax-layer LI IMG {
-    height: auto;
-    max-width: 100%;
   }
 }
 
@@ -1463,10 +1424,6 @@ INPUT[type="submit"]:hover {
   .media A.two-col,
   .media A.three-col {
     height: 350px;
-  }
-
-  .parallax-layer LI {
-    width: 96%;
   }
 
   #contact INPUT[type=text],
