@@ -5,7 +5,7 @@ include "header.php";
 ?>
 
 <div class="content-width main-content" style="text-align: center;">
-  <strong>Belardi Auto Racing</strong> The team that backs Brian Belardi have years of experience and talent. They are all focused on molding and guiding the Mazda Road to Indy drivers to a bright future in the IZOD IndyCar series and beyond.<br>
+  <strong>Belardi Auto Racing</strong> The team that backs Brian Belardi have years of experience and talent. They are all focused on molding and guiding the Mazda Road to Indy drivers to a bright future in the Verizon INDYCAR series and beyond.<br>
   <br>
 
   <strong>MEET THE TEAM <i class="fa fa-angle-down"></i></strong>
@@ -20,9 +20,9 @@ include "header.php";
     </div>
 
     <div class="three-col">
-      <img src="images/joe-brunner.jpg" alt="Joe Brunner"><br>
-      <strong>JOE BRUNNER</strong><br>
-      Team Owner
+      <img src="images/john-brunner.jpg" alt="John Brunner"><br>
+      <strong>JOHN BRUNNER</strong><br>
+      Team Manager
     </div>
 
     <div class="three-col last">

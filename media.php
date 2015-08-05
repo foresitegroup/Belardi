@@ -30,6 +30,15 @@ include "header.php";
 
     <a href="images/gallery/media9.jpg" rel="m" class="fancybox one-col" style="background-image: url(images/gallery/media9.jpg);"></a>
 
+    <a href="images/gallery/media12.jpg" rel="m" class="fancybox three-col" style="background-image: url(images/gallery/media12.jpg);"></a>
+    <a href="images/gallery/media13.jpg" rel="m" class="fancybox three-col" style="background-image: url(images/gallery/media13.jpg);"></a>
+    <a href="images/gallery/media14.jpg" rel="m" class="fancybox three-col last" style="background-image: url(images/gallery/media14.jpg);"></a>
+    <div style="clear: both;"></div>
+
+    <a href="images/gallery/media10.jpg" rel="m" class="fancybox two-col" style="background-image: url(images/gallery/media10.jpg);"></a>
+    <a href="images/gallery/media11.jpg" rel="m" class="fancybox two-col last" style="background-image: url(images/gallery/media11.jpg);"></a>
+    <div style="clear: both;"></div>
+
     <br>
 
     <hr>

@@ -5,7 +5,7 @@ include "header.php";
 
 <div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="8000" data-cycle-pager-template="<span></span>">
   <p class="cycle-pager"></p>
-  <div style="background: url(images/banner1.jpg) center center no-repeat;">
+  <div style="background: url(images/banner5.jpg) center center no-repeat;">
     <div>
       <h1>OUR ROAD TO INDY</h1>
       Follow our progress, races run through September.<br>
@@ -35,9 +35,7 @@ include "header.php";
   <div class="vert-div-wrap">
     <div class="vert-div">
       <div class="left-vert-div">
-        <strong>Belardi Auto Racing</strong> team is a team with cars competing in the Cooper Tires USF2000 Championship Presented by Mazda, as well as Firestone Indy Lights Championship under the IZOD IndyCar Series' Mazda Road to Indy development program.<br>
-        <br>
-        For the 2014 racing season, Belardi Auto Racing has 2 Indy Lights Drivers and 3 USF2000 drivers.<br>
+        <strong>Belardi Auto Racing</strong> is located minutes outside of Indianapolis, the Racing Capital of the World. The 2014 season brought the team 1 Championship, 5 race wins, 14 podiums, 16 top-five finishes and 22 top-ten finishes. In 2015 the team will campaign two cars in Indy Lights Presented by Cooper Tires series part of the Mazda Road to Indy, a ladder program to the Verizon INDYCAR series.<br>
         <br>
         <a href="drivers.php" class="linkarrow" style="font-weight: bold;">OUR DRIVERS</a>
       </div>
@@ -49,7 +47,7 @@ include "header.php";
         $now = time();
 
         $result = $mysqli->query("SELECT * FROM schedule WHERE enddate+86400 >= $now ORDER BY startdate ASC LIMIT 1");
-        
+
         // If season is over just display the last event
         if (mysqli_num_rows($result) == 0) $result = $mysqli->query("SELECT * FROM schedule ORDER BY enddate DESC LIMIT 1");
 
@@ -174,7 +172,7 @@ include "header.php";
 
     <div class="three-col last">
       <h1>SCHEDULE</h1>
-      
+
       <div id="schedule">
         <table>
           <?php
@@ -214,12 +212,12 @@ include "header.php";
 <div id="news-home">
   <div class="content-width">
     <h1 class="line">NEWS FEED</h1><br>
-    
+
     <?php
     require('news/wp-blog-header.php');
 
     $posts = get_posts('numberposts=3&order=DESC&orderby=date');
-    
+
     $counter = 1;
 
     foreach ($posts as $post) :

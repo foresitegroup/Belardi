@@ -5,25 +5,18 @@ include "header.php";
 ?>
 
 <div class="content-width main-content">
-  <h2>BELARDI MISSION</h2>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+  <strong>Belardi Auto Racing</strong> is an organization comprised of experienced individuals in the racing industry with an aggressive growth strategy and a strong commitment to finishing up front. No stranger to winning, team members having been achieving success in both the amateur and pro ranks for over a decade, winning numerous junior formula car races and championships. Based in Brownsburg, Indiana, Belardi Auto Racing is focused solely on the Indy Lights Presented by Cooper Tires series for 2015 and is the defending series champion.<br>
+  <br>
+
+  <div style="text-align: center;"><strong>BELARDI HISTORY <i class="fa fa-angle-down"></i></strong></div>
 </div>
 
 <div class="black">
   <div class="content-width media">
-    <div class="two-col">
-      Belardi Auto Racing started back in Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-
-    <div class="two-col last">
-      ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-
-    <div style="clear: both;"></div><br>
-    <br>
+    Previously a defensive back for the University of Colorado, Team Owner Brian Belardi was was forced to retire from his hopeful football career after sustaining injuries. Upon graduating from UC Boulder, Brian went on to become a successful business owner with Orion Development Group and Liberty Engineering. Belardi has always had a passion for motorsports and is now continuing his successful business career with his most recent venture, Belardi Auto Racing.  Backed with Brian's winning mindset, Belardi Auto Racing has had a very successful run since joining the series in 2011.<br>
     <br>
 
-    We have a 2000 sq ft state of the art facility located in Indiana hosting 5 indy cars... sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+    To help with the growing team, John Brunner stepped in to aid Belardi as Belardi Auto Racing's team manager. Brunner has been involved in motorsports for over 25 years with experience from the SCCA, Atlantic Championship, Champ Car And the INDYCAR series. Throughout his career John has worked with seasoned drivers Alex Tagliani, Paul Tracy, NASCAR's AJ Allmendinger, Patrick Carpentier and IZOD IndyCar series 2012 Rookie of the Year, James Hinchcliffe, among many others. John brings much experience to the team with his many management positions over the years, including Forsythe Racing, Vice President of Operations for the Atlantic series in 2009 and assisting Conquest Racing throughout their Indianapolis 500 run in 2010.<br>
     <br>
     <br>
 
@@ -38,9 +31,9 @@ include "header.php";
     <h2>THE CAR</h2>
     State-of-the-art single-seat, open-wheel, Indy car-style chassis manufactured by Dallara Automobili, complete with paddle shifters, push-to-pass and safety components meeting INDYCAR and FIA standards. 2.0-liter turbocharged Mazda MZR-R developed in conjunction with Advanced Engine Research (AER) producing 450 HP with 50 HP push-to-pass for high speed overtaking and capable of running an entire season without a rebuild. Cooper Tires.<br>
     <br>
-    
+
     <div class="embed-wrap">
-      <iframe width="1000" height="563" src="https://www.youtube.com/embed/AMxgEBi27L4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe width="1000" height="563" src="https://www.youtube.com/embed/cmcnIijUWcM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div><br>
     <br>
     <br>
@@ -51,11 +44,10 @@ include "header.php";
     <br>
 
     <div id="logos">
-      <img src="images/logo-omp-gray.png" alt="OMP">
       <img src="images/logo-cooper-tires-gray.png" alt="Cooper Tires">
       <img src="images/logo-indy-lights-gray.png" alt="Indy Lights">
+      <img src="images/logo-mazda-road-to-indy-gray.png" alt="Mazda Road To Indy">
       <img src="images/logo-liberty-engineering-gray.png" alt="Liberty Engineering">
-      <img src="images/logo-mazda-gray.png" alt="Mazda">
     </div> <!-- END logos -->
   </div>
 </div>

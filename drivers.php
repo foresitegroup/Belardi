@@ -7,7 +7,7 @@ include "header.php";
 <script type="text/javascript" src="inc/instafeed.min.js"></script>
 
 <div class="content-width main-content" style="text-align: center;">
-  <strong>Belardi Auto Racing</strong> team is a team with cars competing in the Cooper Tires USF2000 Championship Presented by Mazda, as well as Firestone Indy Lights Championship under the IZOD IndyCar Series' Mazda Road to Indy development program.<br>
+  <strong>Belardi Auto Racing</strong> team is a team with cars competing in the Indy Lights Presented by Cooper Tires Championship under the Verizon INDYCAR Series' Mazda Road to Indy development program.<br>
   <br>
 
   <strong>MEET OUR DRIVERS <i class="fa fa-angle-down"></i></strong>
@@ -38,12 +38,23 @@ include "header.php";
     </div>
 
     <div class="three-col last">
-      <h3><a href="https://twitter.com/felixserralles">@FELIXSERRALES</a></h3>
+      <h3><a href="https://twitter.com/felixserralles">@FELIXSERRALLES</a></h3>
 
-      <img src="images/serralles-image-group.png" alt="" style="margin: 1em 0;">
+      <script type="text/javascript">
+        var userFeed = new Instafeed({
+          get: 'user',
+          userId: 36105938,
+          accessToken: '36105938.467ede5.271adab5a0bc423aade7dfc6f6f791f1',
+          limit: 12,
+          template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>',
+          target: 'if-serralles'
+        });
+        userFeed.run();
+      </script>
+      <div id="if-serralles" class="instafeed"></div>
 
       <div class="soclinks">
-        <a href="https://www.facebook.com/fjsracing">FACEBOOK</a> | <a href="https://twitter.com/felixserralles">TWITTER</a> | <a href="#">INSTAGRAM</a>
+        <a href="https://www.facebook.com/fjsracing">FACEBOOK</a> | <a href="https://twitter.com/felixserralles">TWITTER</a> | <a href="https://instagram.com/felixjuanserralles">INSTAGRAM</a>
       </div>
     </div>
 
