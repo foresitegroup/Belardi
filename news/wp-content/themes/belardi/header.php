@@ -17,4 +17,17 @@ $PageTitle = "News"; // This won't display, but it's needed for formatting
 include "../header.php";
 ?>
 
-<div class="content-width main-content news">
+<!-- <div class="content-width main-content news"> -->
+<div class="news">
+  <?php if ( !is_single() ) : ?>
+  <div class="black">
+    <div class="content-width" style="text-align: center;">
+      Stay up to date on the latest Belardi Auto Racing team news as we continue on Road to Indy presented by Cooper Tires.<br>
+      <br>
+
+      <strong style="color: #D5B576;">LATEST POSTS <i class="fa fa-angle-down"></i></strong>
+    </div>
+  </div>
+
+  <div class="content-width main-content">
+  <?php endif; ?>

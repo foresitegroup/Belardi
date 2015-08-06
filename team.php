@@ -12,7 +12,7 @@ include "header.php";
 </div>
 
 <div class="black">
-  <div class="content-width">
+  <div class="content-width team">
     <div class="three-col">
       <img src="images/brian-belardi.jpg" alt="Brian Belardi"><br>
       <strong>BRIAN BELARDI</strong><br>
@@ -34,35 +34,35 @@ include "header.php";
     <div style="clear: both;"></div>
 
     <div class="three-col">
+      <img src="images/len-paskus.jpg" alt="Len Paskus"><br>
+      <strong>LEN PASKUS</strong><br>
+      Engineer
+    </div>
+
+    <div class="three-col">
       <img src="images/mike-meyer.jpg" alt="Mike Meyer"><br>
       <strong>MIKE MEYER</strong><br>
       Mechanic
     </div>
 
-    <div class="three-col">
+    <div class="three-col last">
       <img src="images/jonathan-ghormley.jpg" alt="Jonathan Ghormley"><br>
       <strong>JONATHAN GHORMLEY</strong><br>
-      Mechanic
-    </div>
-
-    <div class="three-col last">
-      <img src="images/kyle-burch.jpg" alt="Kyle Burch"><br>
-      <strong>KYLE BURCH</strong><br>
       Mechanic
     </div>
 
     <div style="clear: both;"></div>
 
     <div class="three-col">
-      <img src="images/len-paskus.jpg" alt="Len Paskus"><br>
-      <strong>LEN PASKUS</strong><br>
+      <img src="images/kyle-burch.jpg" alt="Kyle Burch"><br>
+      <strong>KYLE BURCH</strong><br>
       Mechanic
     </div>
 
     <div class="three-col">
       <img src="images/ross-mcleod.jpg" alt="Ross McLeod"><br>
       <strong>ROSS MCLEOD</strong><br>
-      Engineer
+      Mechanic
     </div>
 
     <div class="three-col last">

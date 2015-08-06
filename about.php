@@ -13,7 +13,7 @@ include "header.php";
 
 <div class="black">
   <div class="content-width media">
-    Previously a defensive back for the University of Colorado, Team Owner Brian Belardi was was forced to retire from his hopeful football career after sustaining injuries. Upon graduating from UC Boulder, Brian went on to become a successful business owner with Orion Development Group and Liberty Engineering. Belardi has always had a passion for motorsports and is now continuing his successful business career with his most recent venture, Belardi Auto Racing.  Backed with Brian's winning mindset, Belardi Auto Racing has had a very successful run since joining the series in 2011.<br>
+    Previously a defensive back for the University of Colorado, Team Owner Brian Belardi was forced to retire from his hopeful football career after sustaining injuries. Upon graduating from UC Boulder, Brian went on to become a successful business owner with Orion Development Group and Liberty Engineering. Belardi has always had a passion for motorsports and is now continuing his successful business career with his most recent venture, Belardi Auto Racing.  Backed with Brian's winning mindset, Belardi Auto Racing has had a very successful run since joining the series in 2011.<br>
     <br>
 
     To help with the growing team, John Brunner stepped in to aid Belardi as Belardi Auto Racing's team manager. Brunner has been involved in motorsports for over 25 years with experience from the SCCA, Atlantic Championship, Champ Car And the INDYCAR series. Throughout his career John has worked with seasoned drivers Alex Tagliani, Paul Tracy, NASCAR's AJ Allmendinger, Patrick Carpentier and IZOD IndyCar series 2012 Rookie of the Year, James Hinchcliffe, among many others. John brings much experience to the team with his many management positions over the years, including Forsythe Racing, Vice President of Operations for the Atlantic series in 2009 and assisting Conquest Racing throughout their Indianapolis 500 run in 2010.<br>
@@ -44,10 +44,10 @@ include "header.php";
     <br>
 
     <div id="logos">
-      <img src="images/logo-cooper-tires-gray.png" alt="Cooper Tires">
+      <img src="images/logo-liberty-engineering-gray.png" alt="Liberty Engineering">
       <img src="images/logo-indy-lights-gray.png" alt="Indy Lights">
       <img src="images/logo-mazda-road-to-indy-gray.png" alt="Mazda Road To Indy">
-      <img src="images/logo-liberty-engineering-gray.png" alt="Liberty Engineering">
+      <img src="images/logo-cooper-tires-gray.png" alt="Cooper Tires">
     </div> <!-- END logos -->
   </div>
 </div>

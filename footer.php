@@ -3,10 +3,10 @@
       <div class="content-width">
         <?php if ($PageTitle == "") { ?>
         <div id="logos" class="vert-center">
-          <img src="<?php echo $TopDir; ?>images/logo-cooper-tires.png" alt="Cooper Tires">
+          <img src="<?php echo $TopDir; ?>images/logo-liberty-engineering.png" alt="Liberty Engineering">
           <img src="<?php echo $TopDir; ?>images/logo-indy-lights.png" alt="Indy Lights">
           <img src="<?php echo $TopDir; ?>images/logo-mazda-road-to-indy.png" alt="Mazda Road To Indy">
-          <img src="<?php echo $TopDir; ?>images/logo-liberty-engineering.png" alt="Liberty Engineering">
+          <img src="<?php echo $TopDir; ?>images/logo-cooper-tires.png" alt="Cooper Tires">
         </div> <!-- END logos -->
         <?php } else { ?>
         <?php include "signup.php"; ?>

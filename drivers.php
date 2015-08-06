@@ -7,7 +7,7 @@ include "header.php";
 <script type="text/javascript" src="inc/instafeed.min.js"></script>
 
 <div class="content-width main-content" style="text-align: center;">
-  <strong>Belardi Auto Racing</strong> team is a team with cars competing in the Indy Lights Presented by Cooper Tires Championship under the Verizon INDYCAR Series' Mazda Road to Indy development program.<br>
+  <strong>Belardi Auto Racing</strong> is a team with cars competing in the Indy Lights Presented by Cooper Tires Championship under the Verizon INDYCAR Series' Mazda Road to Indy development program.<br>
   <br>
 
   <strong>MEET OUR DRIVERS <i class="fa fa-angle-down"></i></strong>
@@ -77,10 +77,10 @@ include "header.php";
       <strong>Off the Track:</strong> Karting, Soccer, Socializing, Travel, Boxing<br>
       <br>
 
-      Juan Piedrahita, Born in Bogot&aacute;, Colombia, began his driving career at age of 7 karting in Mexico. Piedrahita transitioned to auto racing in 2009 competing in the LATAM Challenge Series where he gained 2 podiums, finished 7th in overall points and 2nd in the rookie standings.<br>
+      Juan Piedrahita, born in Bogot&aacute;, Colombia, began his driving career at age of 7 karting in Mexico. Piedrahita transitioned to auto racing in 2009 competing in the LATAM Challenge Series where he gained 2 podiums, finished 7th in overall points and 2nd in the rookie standings.<br>
       <br>
 
-      For the 2014, Piedrahita will moved up to to the Road to Indy, currently racing in the Indy Lights series.<br>
+      Piedrahita will enter his second season in Indy Lights for 2015.<br>
       <br>
 
       <a href="http://www.juanchopiedrahitac.com" class="linkarrow"><strong>WWW.JUANCHOPIEDRAHITAC.COM</strong></a>
