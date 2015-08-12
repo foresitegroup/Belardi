@@ -12,4 +12,5 @@
   <li><a href="<?php echo $TopDir; ?>drivers.php">DRIVERS</a></li>
   <li><a href="<?php echo $TopDir; ?>schedule.php">SCHEDULE</a></li>
   <li><a href="<?php echo $TopDir; ?>contact.php">CONTACT</a></li>
+  <li><a href="<?php echo $TopDir; ?>shop.php">SHOP</a></li>
 </ul>

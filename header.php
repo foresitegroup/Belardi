@@ -66,7 +66,7 @@
       <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.mb.YTPlayer.min.js"></script>
       <div id="video-header" data-property="{videoURL:'<?php echo $Video; ?>', containment:'#video-header', startAt:0, mute:true, autoPlay:true, loop:true, showControls:false, stopMovieOnBlur:false}"></div>
       <?php } else { ?>
-      <div id="sub-banner"<?php if ($Banner !="") echo " style=\"background-image: url(<?php echo $TopDir; ?>images/" . $Banner . ");\""; ?>>
+      <div id="sub-banner"<?php if ($Banner !="") echo " style=\"background-image: url(" . $TopDir . "images/" . $Banner . ");\""; ?>>
         <div class="content-width">
           <?php echo $PageTitle; ?>
         </div> <!-- END content-width -->

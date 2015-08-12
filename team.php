@@ -71,6 +71,14 @@ include "header.php";
       Transportation/Logistics
     </div>
 
+    <div style="clear: both;"></div>
+
+    <div class="three-col">
+      <img src="images/chuck-lessick.jpg" alt="Chuck Lessick"><br>
+      <strong>CHUCK LESSICK</strong><br>
+      Office Manager
+    </div>
+
     <div style="clear: both;"></div><br>
     <br>
     <br>

@@ -26,7 +26,7 @@ $salt = "ForesiteGroupBelardi";
             $_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])] != ""
           ) {
         // All required fields have been filled, so construct the message
-        $SendTo = "mark@foresitegrp.com";
+        $SendTo = "jill@belardiautoracing.com";
         $Subject = "Contact From Belardi Website";
         $From = "From: Contact Form <contactform@belardiautoracing.com>\r\n";
         $From .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
@@ -41,8 +41,8 @@ $salt = "ForesiteGroupBelardi";
         
         $Message = stripslashes($Message);
         
-        //mail($SendTo, $Subject, $Message, $From);
-        echo "<pre>$Message</pre><br><br>";
+        mail($SendTo, $Subject, $Message, $From);
+        //echo "<pre>$Message</pre><br><br>";
         
         echo "<strong>Your message has been sent!</strong><br>\n<br>\nThank you for your interest in Belardi Auto Racing.  You will be contacted shortly.";
       } else {

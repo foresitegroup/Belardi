@@ -1226,17 +1226,10 @@ INPUT[type="submit"]:hover {
     margin-left: 0.9em;
   }
 
-  .menu UL LI.m1 {
-    display: none;
+  .menu UL LI.logo IMG {
+    height: 4em;
+    width: auto;
   }
-
-  .menu UL LI.m2 {
-    margin-left: 0;
-  }
-
-/*  .mbYTP_wrapper {
-    display: none;
-  }*/
 
   .nextevent H1 {
     font-size: 175%;
@@ -1300,9 +1293,8 @@ INPUT[type="submit"]:hover {
 
 @media only screen and (max-width: 768px) {
   /* Tablet */
-  .menu UL LI.logo IMG {
-    height: 5em;
-    width: auto;
+  .menu UL LI A {
+    font-size: 90%;
   }
 
   .nextevent H1 {
