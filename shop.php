@@ -1,6 +1,6 @@
 <?php
 $PageTitle = "Shop";
-$Banner = "sub-banner-about.jpg";
+$Banner = "sub-banner-shop.jpg";
 include "header.php";
 
 // Settings for randomizing the field names

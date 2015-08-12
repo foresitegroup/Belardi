@@ -1,6 +1,6 @@
 <?php
 $PageTitle = "Team";
-$Banner = "sub-banner-about.jpg";
+$Banner = "sub-banner-team.jpg";
 include "header.php";
 ?>
 
