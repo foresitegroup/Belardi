@@ -23,7 +23,7 @@ include "header.php";
     <a href="images/gallery/about1.jpg" rel="a" class="fancybox one-col" style="background-image: url(images/gallery/about1.jpg);"></a>
 
     <a href="images/gallery/about2.jpg" rel="a" class="fancybox two-col" style="background-image: url(images/gallery/about2.jpg);"></a>
-    <a href="images/gallery/media9.jpg" rel="a" class="fancybox two-col last" style="background-image: url(images/gallery/media9.jpg);"></a>
+    <a href="images/gallery/about3.jpg" rel="a" class="fancybox two-col last" style="background-image: url(images/gallery/about3.jpg);"></a>
     <div style="clear: both;"></div><br>
     <br>
     <br>
