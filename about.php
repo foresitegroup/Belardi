@@ -20,10 +20,13 @@ include "header.php";
     <br>
     <br>
 
-    <a href="images/gallery/about1.jpg" rel="a" class="fancybox one-col" style="background-image: url(images/gallery/about1.jpg);"></a>
-
     <a href="images/gallery/about2.jpg" rel="a" class="fancybox two-col" style="background-image: url(images/gallery/about2.jpg);"></a>
     <a href="images/gallery/about3.jpg" rel="a" class="fancybox two-col last" style="background-image: url(images/gallery/about3.jpg);"></a>
+    <div style="clear: both;"></div>
+
+    <a href="images/gallery/about4.jpg" rel="a" class="fancybox three-col" style="background-image: url(images/gallery/about4.jpg);"></a>
+    <a href="images/gallery/about5.jpg" rel="a" class="fancybox three-col" style="background-image: url(images/gallery/about5.jpg);"></a>
+    <a href="images/gallery/about6.jpg" rel="a" class="fancybox three-col last" style="background-image: url(images/gallery/about6.jpg);"></a>
     <div style="clear: both;"></div><br>
     <br>
     <br>
