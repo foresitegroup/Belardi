@@ -42,6 +42,7 @@ get_header(); ?>
 
 			// End the loop.
 			endwhile;
+			echo "<div style=\"clear: both;\"></div>\n";
 
 			// Previous/next page navigation.
 			the_posts_pagination( array(
