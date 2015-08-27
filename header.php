@@ -9,8 +9,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="<?php echo ($Description != "") ? $Description : "This is the home page of Belardi Auto Racing. We're an organization comprised of experienced individuals in the racing industry with an aggressive growth strategy and a strong commitment to finishing up front."; ?>">
+    <meta name="keywords" content="<?php echo ($Keywords != "") ? $Keywords : "Belardi, Belardi Auto Racing, Indy Racing, Indy Car Racing, Auto Racing, Liberty Engineering, Indy Lights, Road To Indy, Cooper Tires, Indiana Auto Racing, Brownsburg Indiana, indycar, fia standards, Mazda racing, Mazda car, Advanced Engine Research"; ?>">
     <meta name="author" content="Foresite Group">
 
     <meta name="viewport" content="width=device-width">

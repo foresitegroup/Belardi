@@ -1,6 +1,8 @@
 <?php
 $PageTitle = "Drivers";
 $Banner = "sub-banner-drivers.jpg";
+$Description = "Meet the Belardi Auto Racing drivers.";
+$Keywords = "Belardi, Belardi Auto Racing, Belardi Racing, Meet the Belardi drivers, Belardi Racing drivers, Felix Serralles, Juan Piedrahita, Indy Lights, Cooper Tires, Road To Indy, Cooper Tires Championship, indy car drivers";
 include "header.php";
 ?>
 

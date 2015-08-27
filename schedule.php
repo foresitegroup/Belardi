@@ -1,13 +1,15 @@
 <?php
 $PageTitle = "Schedule";
 $Banner = "sub-banner-schedule.jpg";
+$Description = "This is the schedule for the Belardi Auto Racing team and Indy Lights Racing.";
+$Keywords = "Belardi, Belardi Auto Racing, Belardi Racing, Belardi Auto Racing Schedule, Racing Schedule, Indy Lights schedule, indy racing schedule, Belardi indy racing, Cooper Tires, Mazda racing, Indy Lights";
 include "header.php";
 ?>
 
 <div class="content-width main-content">
   <h2>2015 INDY LIGHTS</h2>
   <br>
-  
+
   <table id="schedule-page">
     <tr>
       <th class="col1">ROUND / DATE</th>
