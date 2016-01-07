@@ -30,7 +30,7 @@ include "header.php";
       <strong>Off the Track:</strong> Rock Climbing, Training, Activist For Anti-Bullying And Distracted Driving, Writer And Author.<br>
       <br>
 
-      Veach, Ohio native, started racing karts at the age of twelve winning several Ohio championships. Three years later, he made the jump to open wheel cars at the age of 15 with Andretti Autosport. Competing in USF2000, he started his journey on the Mazda Road to Indy. Six years later, Veach has two years of USF2000, one year of Pro Mazda, and two years Of Indy Lights experience under his belt. After coming close to winning the 2014 Indy Lights Championship title, Veach is looking onto 2016 with high expectations!<br>
+      Veach, Ohio native, started racing karts at the age of twelve winning several Ohio championships. Three years later, he made the jump to open wheel cars at the age of 15 with Andretti Autosport. Competing in USF2000, he started his journey on the Mazda Road to Indy. Six years later, Veach has two years of USF2000, one year of Pro Mazda, and two years of Indy Lights experience under his belt. After coming close to winning the 2014 Indy Lights Championship title, Veach is looking onto 2016 with high expectations!<br>
       <br>
 
       In 2016 Veach drives for Belardi Auto Racing in the Indy Lights Series.<br>
@@ -42,19 +42,18 @@ include "header.php";
     <div class="three-col last">
       <h3><a href="https://twitter.com/ZachVeach">@ZACHVEACH</a></h3>
       
-      <a href="http://instagram.com/zachveach"><img src="images/driver-zach-veach-instagram.jpg" alt="" style="margin: 1.3em 0 0.75em;"></a>
-      <!-- <script type="text/javascript">
-        // var userFeed = new Instafeed({
-        //   get: 'user',
-        //   userId: 189928262,
-        //   accessToken: '36105938.467ede5.271adab5a0bc423aade7dfc6f6f791f1',
-        //   limit: 12,
-        //   template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>',
-        //   target: 'if-veach'
-        // });
-        // userFeed.run();
+      <script type="text/javascript">
+        var userFeed = new Instafeed({
+          get: 'user',
+          userId: 189928262,
+          accessToken: '189928262.3d6261f.f98e8ed153054828990bb93bf6c698c2',
+          limit: 12,
+          template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>',
+          target: 'if-veach'
+        });
+        userFeed.run();
       </script>
-      <div id="if-veach" class="instafeed"></div> -->
+      <div id="if-veach" class="instafeed"></div>
 
       <div class="soclinks">
         <a href="https://www.facebook.com/ZachVeachRacing">FACEBOOK</a> | <a href="http://www.twitter.com/ZachVeach">TWITTER</a> | <a href="http://instagram.com/zachveach">INSTAGRAM</a>
