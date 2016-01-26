@@ -4,10 +4,18 @@ $Banner = "sub-banner-schedule.jpg";
 $Description = "This is the schedule for the Belardi Auto Racing team and Indy Lights Racing.";
 $Keywords = "Belardi, Belardi Auto Racing, Belardi Racing, Belardi Auto Racing Schedule, Racing Schedule, Indy Lights schedule, indy racing schedule, Belardi indy racing, Cooper Tires, Mazda racing, Indy Lights";
 include "header.php";
+
+include_once "inc/dbconfig.php";
+
+// Get the latest date for displaying year in header
+$result = $mysqli->query("SELECT * FROM schedule ORDER BY enddate DESC LIMIT 1");
+$row = $result->fetch_array(MYSQLI_ASSOC);
+$schedyear = date("Y", $row['enddate']);
+mysqli_free_result($result);
 ?>
 
 <div class="content-width main-content">
-  <h2>2015 INDY LIGHTS</h2>
+  <h2><?php echo $schedyear; ?> INDY LIGHTS</h2>
   <br>
 
   <table id="schedule-page">
@@ -18,8 +26,6 @@ include "header.php";
       <th class="col4">TRACK SHAPE</th>
     </tr>
     <?php
-    include_once "inc/dbconfig.php";
-
     $result = $mysqli->query("SELECT * FROM schedule ORDER BY startdate ASC");
 
     while($row = $result->fetch_array(MYSQLI_BOTH)) {
