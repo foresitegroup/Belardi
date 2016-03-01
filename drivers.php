@@ -41,7 +41,7 @@ include "header.php";
 
     <div class="three-col last">
       <h3><a href="https://twitter.com/ZachVeach">@ZACHVEACH</a></h3>
-      
+
       <script type="text/javascript">
         var userFeed = new Instafeed({
           get: 'user',
@@ -57,6 +57,61 @@ include "header.php";
 
       <div class="soclinks">
         <a href="https://www.facebook.com/ZachVeachRacing">FACEBOOK</a> | <a href="http://www.twitter.com/ZachVeach">TWITTER</a> | <a href="http://instagram.com/zachveach">INSTAGRAM</a>
+      </div>
+    </div>
+
+    <div style="clear: both;"></div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="sideline"><h2>Felix Rosenqvist<!--  <span style="color: #FFFFFF;">#4</span> --></h2></div>
+
+    <div class="three-col">
+      <img src="images/driver-felix-rosenqvist.jpg" alt="Felix Rosenqvist">
+    </div>
+
+    <div class="three-col">
+      <strong>Nationality:</strong> Swedish<br>
+      <strong>Birthdate:</strong> November 7, 1991<br>
+      <strong>Height/Weight:</strong> 170cm / 66kg<br>
+      <strong>Off the Track:</strong> Skiing, Skateboarding, Hiking, Music, Video Games<br>
+      <br>
+
+      A multiple title winner and frontrunner in every championship he ever contested, Sweden's Felix Rosenqvist is the reigning FIA F3 European Champion and one of the most exciting up-and-coming talents in international motorsport.<br>
+      <br>
+
+      Having finished second in the FIA F3 European Championship in 2013, Felix went one better in 2015, lifting the prestigious title after a dominant season driving for Italian outfit Prema Powerteam. Felix Rosenqvist is the only driver in the history of Formula 3 to have won each of the accolades that make up the category's "grand slam": the European Championship, the Grand Prix de Pau (2014), the Masters of Formula 3 (twice in 2011 and 2013) and the blue-riband Macau Grand Prix (twice in 2014 and 2015).<br>
+      <br>
+
+      Felix is backed by the Mercedes-Benz young driver development programme and is the official Mercedes-AMG DTM test and reserve driver.<br>
+      <br>
+
+      In 2016 Felix will undertake his most intense season to date, racing on two continents. The packed agenda includes a campaign in the American Indy Lights series with Belardi Auto Racing, and an assault on the Blancpain GT Series Sprint Cup driving the new Mercedes-AMG GT3 for French squad AKKA-ASP.<br>
+      <br>
+
+      <a href="http://www.felixracing.se" class="linkarrow"><strong>WWW.FELIXRACING.SE</strong></a>
+    </div>
+
+    <div class="three-col last">
+      <h3><a href="https://twitter.com/FRosenqvist">@FROSENQVIST</a></h3>
+
+      <script type="text/javascript">
+        var userFeed = new Instafeed({
+          get: 'user',
+          userId: 36105938,
+          accessToken: '36105938.467ede5.271adab5a0bc423aade7dfc6f6f791f1',
+          limit: 12,
+          template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>',
+          target: 'if-rosenqvist'
+        });
+        userFeed.run();
+      </script>
+      <div id="if-rosenqvist" class="instafeed"></div>
+
+      <div class="soclinks">
+        <a href="https://www.facebook.com/FelixRosenqvistOfficial">FACEBOOK</a> | <a href="https://twitter.com/FRosenqvist">TWITTER</a> | <a href="http://instagram.com/frosenqvist">INSTAGRAM</a>
       </div>
     </div>
 
