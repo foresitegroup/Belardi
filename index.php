@@ -35,7 +35,7 @@ include "header.php";
   <div class="vert-div-wrap">
     <div class="vert-div">
       <div class="left-vert-div">
-        <strong>Belardi Auto Racing</strong> is located minutes outside of Indianapolis, the Racing Capital of the World. The 2014 season brought the team 1 Championship, 5 race wins, 14 podiums, 16 top-five finishes and 22 top-ten finishes. In 2015 the team will campaign two cars in Indy Lights Presented by Cooper Tires series part of the Mazda Road to Indy, a ladder program to the Verizon INDYCAR series.<br>
+        <strong>Belardi Auto Racing</strong> is located minutes outside of Indianapolis, the Racing Capital of the World. With a championship win in 2014, the 2015 season brought the team 1 win finishing 4th in the championship. In 2016 the team will campaign two cars in Indy Lights Presented by Cooper Tires series part of the Mazda Road to Indy, a ladder program to the Verizon INDYCAR series.<br>
         <br>
         <a href="drivers.php" class="linkarrow" style="font-weight: bold;">OUR DRIVERS</a>
       </div>
