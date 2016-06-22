@@ -159,7 +159,7 @@ include "header.php";
         var userFeed = new Instafeed({
           get: 'user',
           userId: 36105938,
-          accessToken: '36105938.467ede5.271adab5a0bc423aade7dfc6f6f791f1',
+          accessToken: '36105938.1677ed0.0238cdf9f88b422eb6c58540aacd6d34',
           limit: 12,
           template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>'
         });
