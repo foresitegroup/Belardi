@@ -100,7 +100,7 @@ $salt = "ForesiteGroupBelardi";
     <br>
 
     <h3>HEADQUARTERS</h3>
-    1187 E. Northfield Drive, Suite G &bull; Brownsburg, IN 46112 &bull; (317) 456-2816<br>
+    8701 Motorsports Way, Suite 300 &bull; Brownsburg, IN 46112 &bull; (317) 456-2816<br>
     <i class="fa fa-angle-down"></i>
   </div>
 
@@ -112,7 +112,7 @@ $salt = "ForesiteGroupBelardi";
   function ViewLargerMap(VLMa, map) {
     var VLMui = document.createElement('a');
     VLMui.style.cursor = 'pointer';
-    VLMui.href = 'https://www.google.com/maps/place/Belardi+Auto+Racing/@39.8397468,-86.3686737,15z/data=!3m1!4b1!4m2!3m1!1s0x886cae83038fcc3b:0x4b1941d4a53f701e';
+    VLMui.href = 'https://www.google.com/maps/place/8701+Motorsports+Way+%23300,+Brownsburg,+IN+46112/@39.8342775,-86.3697309,17z/data=!3m1!4b1!4m5!3m4!1s0x886cae9ad0c7aa9b:0xb667386e41f246c8!8m2!3d39.8342775!4d-86.3675422';
     VLMui.target = 'new';
     VLMui.innerHTML = 'View larger map';
     VLMui.style.marginLeft = '7px';
@@ -120,11 +120,11 @@ $salt = "ForesiteGroupBelardi";
   }
 
   function initialize() {
-    var MyLatLng = new google.maps.LatLng(39.8397468,-86.3686737);
+    var MyLatLng = new google.maps.LatLng(39.8342775,-86.3697309);
     var mapCanvas = document.getElementById('map-canvas');
     var mapOptions = {
       center: MyLatLng,
-      zoom: 15,
+      zoom: 13,
       disableDefaultUI: true,
       zoomControl: true,
       zoomControlOptions: {
@@ -164,7 +164,7 @@ $salt = "ForesiteGroupBelardi";
     });
 
     var infowindow = new google.maps.InfoWindow({
-      content: '<div id="content"><div id="bodyContent"><strong>Belardi Auto Racing</strong><br>1187 E. Northfield Drive<br>Suite G<br>Brownsburg, IN 46112<br><a href="https://www.google.com/maps/place/Belardi+Auto+Racing/@39.8397468,-86.3686737,15z/data=!3m1!4b1!4m2!3m1!1s0x886cae83038fcc3b:0x4b1941d4a53f701e" target="new">View larger map</a></div></div>'
+      content: '<div id="content"><div id="bodyContent"><strong>Belardi Auto Racing</strong><br>8701 Motorsports Way<br>Suite 300<br>Brownsburg, IN 46112<br><a href="https://www.google.com/maps/place/8701+Motorsports+Way+%23300,+Brownsburg,+IN+46112/@39.8342775,-86.3697309,17z/data=!3m1!4b1!4m5!3m4!1s0x886cae9ad0c7aa9b:0xb667386e41f246c8!8m2!3d39.8342775!4d-86.3675422" target="new">View larger map</a></div></div>'
     });
 
     google.maps.event.addListener(marker, 'click', function() {
