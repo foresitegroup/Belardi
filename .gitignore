@@ -49,3 +49,4 @@ news/wp-content/*
 !news/wp-content/themes/
 news/wp-content/themes/*
 !news/wp-content/themes/belardi
+admin/login.php

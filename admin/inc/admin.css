@@ -1,0 +1,60 @@
+.header-black {
+  padding: 15px 0;
+  height: 95px;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+INPUT[type="submit"] {
+  box-sizing: border-box;
+  background: #111111;
+  border: 1px solid #111111;
+}
+
+.one-half {
+  width: 45%;
+  float: left;
+}
+
+.one-half.last {
+  float: right;
+}
+
+.schedule {
+  padding: 3em 0;
+}
+
+INPUT[type="text"],
+TEXTAREA {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ACACAC;
+}
+
+INPUT[type="text"].startdate {
+  width: 40%;
+  float: left;
+}
+
+INPUT[type="text"].enddate {
+  width: 40%;
+  float: right;
+}
+
+TEXTAREA {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.controls {
+  float: left;
+  width: 1.5em;
+  font-size: 25px;
+}
+
+.controls .fa {
+  margin-bottom: 0.4em;
+}
