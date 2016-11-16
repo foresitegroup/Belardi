@@ -1,28 +1,44 @@
 <?php
 $PageTitle = "";
 include "header.php";
+
+require('news/wp-blog-header.php');
+$posts = get_posts('posts_per_page=3&order=DESC&orderby=date&meta_key=_thumbnail_id');
+
+$i = 1;
+
+foreach ($posts as $post) :
+  setup_postdata($post);
+  
+  ${"banner" . $i} = wp_get_attachment_url(get_post_thumbnail_id());
+
+  $i++;
+endforeach;
 ?>
 
 <div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="8000" data-cycle-pager-template="<span></span>">
   <p class="cycle-pager"></p>
-  <div style="background: url(images/banner5.jpg) center center no-repeat;">
-    <div>
+  <div class="image" style="background-image: url(<?php echo $banner1; ?>);">
+    <div class="overlay"></div>
+    <div class="text">
       <h1>OUR ROAD TO INDY</h1>
       Follow our progress, races run through September.<br>
       <br>
       <a href="schedule.php">FULL SCHEDULE</a>
     </div>
   </div>
-  <div style="background: url(images/banner3.jpg) center center no-repeat;">
-    <div>
+  <div class="image" style="background-image: url(<?php echo $banner2; ?>);">
+    <div class="overlay"></div>
+    <div class="text">
       <h1>ON THE PODIUM</h1>
-      Felix &amp; Juan take the podium!<br>
+      Felix &amp; Zach take the podium!<br>
       <br>
       <a href="drivers.php">OUR DRIVERS</a>
     </div>
   </div>
-  <div style="background: url(images/banner4.jpg) center center no-repeat;">
-    <div>
+  <div class="image" style="background-image: url(<?php echo $banner3; ?>);">
+    <div class="overlay"></div>
+    <div class="text">
       <h1>BEHIND THE SCENES</h1>
       Learn more about the Belardi Racing team<br>
       <br>

@@ -264,7 +264,7 @@ NAV:before, NAV:after { content: ""; display: table; }
   position: relative;
 }
 
-.cycle-slideshow DIV {
+.cycle-slideshow .image {
   width: 100%;
   height: 489px;
   -webkit-transform-style: preserve-3d;
@@ -273,9 +273,21 @@ NAV:before, NAV:after { content: ""; display: table; }
   -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
   -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
   box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
-.cycle-slideshow DIV DIV {
+.cycle-slideshow .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.cycle-slideshow .text {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -295,22 +307,22 @@ NAV:before, NAV:after { content: ""; display: table; }
   transform: translateY(-50%); /* vertical centering */
 }
 
-.cycle-slideshow DIV DIV H1 {
+.cycle-slideshow .text H1 {
   margin: 0;
   font-family: 'copperplate_gothic_boldRg';
   font-size: 246.16%;
   line-height: 1em;
 }
 
-.cycle-slideshow DIV DIV A:link,
-.cycle-slideshow DIV DIV A:visited {
+.cycle-slideshow .text A:link,
+.cycle-slideshow .text A:visited {
   font-weight: 700;
   font-size: 75%;
   color: #C9362A;
   line-height: 1em;
 }
 
-.cycle-slideshow DIV DIV A:after {
+.cycle-slideshow .text A:after {
   font-family: FontAwesome;
   content: '\A \f107';
   white-space: pre;
@@ -319,13 +331,13 @@ NAV:before, NAV:after { content: ""; display: table; }
   color: #707070;
 }
 
-.cycle-slideshow DIV DIV A:hover,
-.cycle-slideshow DIV DIV A:active {
+.cycle-slideshow .text A:hover,
+.cycle-slideshow .text A:active {
   color: #FFFFFF;
   text-shadow: 1px 1px #000000;
 }
 
-.cycle-slideshow DIV DIV A:hover:after {
+.cycle-slideshow .text A:hover:after {
   color: #FFFFFF;
 }
 
@@ -751,7 +763,8 @@ TEXTAREA {
   height: 10em;
 }
 
-INPUT[type="text"] {
+INPUT[type="text"],
+INPUT[type="password"] {
   color: #ACACAC;
   border: 1px solid #ACACAC;
   padding: 0.75em 0.72em;
@@ -761,7 +774,8 @@ INPUT[type="text"] {
   transition: border-color ease-in-out .15s;
 }
 
-INPUT[type="text"]:focus {
+INPUT[type="text"]:focus,
+INPUT[type="password"]:focus {
   border-color: #D5B576;
 }
 
