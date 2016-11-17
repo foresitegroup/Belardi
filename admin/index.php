@@ -1,7 +1,7 @@
 <?php
 include "login.php";
 
-header( "Location: schedule.php" );
+header("Location: schedule.php");
 
 $PageTitle = "Administration";
 include "header.php";
