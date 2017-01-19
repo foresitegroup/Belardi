@@ -175,7 +175,7 @@ endforeach;
         var userFeed = new Instafeed({
           get: 'user',
           userId: 36105938,
-          accessToken: '36105938.1677ed0.0238cdf9f88b422eb6c58540aacd6d34',
+          accessToken: '36105938.af76889.c8d1b33e36ae4263a105bf5acabc4f3e',
           limit: 12,
           template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>'
         });

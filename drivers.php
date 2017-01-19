@@ -2,7 +2,7 @@
 $PageTitle = "Drivers";
 $Banner = "sub-banner-drivers.jpg";
 $Description = "Meet the Belardi Auto Racing drivers.";
-$Keywords = "Belardi, Belardi Auto Racing, Belardi Racing, Meet the Belardi drivers, Belardi Racing drivers, Felix Serralles, Juan Piedrahita, Indy Lights, Cooper Tires, Road To Indy, Cooper Tires Championship, indy car drivers";
+$Keywords = "Belardi, Belardi Auto Racing, Belardi Racing, Meet the Belardi drivers, Belardi Racing drivers, Indy Lights, Cooper Tires, Road To Indy, Cooper Tires Championship, indy car drivers";
 include "header.php";
 ?>
 
@@ -17,46 +17,67 @@ include "header.php";
 
 <div class="black drivers">
   <div class="content-width">
-    <div class="sideline"><h2>Zach Veach<!--  <span style="color: #FFFFFF;">#4</span> --></h2></div>
+    <div class="sideline"><h2>Santiago Urrutia</h2></div>
 
     <div class="three-col">
-      <img src="images/driver-zach-veach.jpg" alt="Zach Veach">
+      <img src="images/driver-santiago-urrutia.jpg" alt="Santiago Urrutia">
     </div>
 
     <div class="three-col">
-      <strong>Nationality:</strong> American<br>
-      <strong>Birthdate:</strong> December 9, 1994<br>
-      <strong>Height/Weight:</strong> 5'5" / 125 lbs.<br>
-      <strong>Off the Track:</strong> Rock Climbing, Training, Activist For Anti-Bullying And Distracted Driving, Writer And Author.<br>
+      <strong>Nationality:</strong> Uruguayan<br>
+      <strong>Birthdate:</strong> August 30, 1996<br>
+      <strong>Height/Weight:</strong> 5'7" / 149 lbs.<br>
+      <strong>Off the Track:</strong> rock/pop music, movies, motocross, handball, soccer<br>
       <br>
 
-      Veach, Ohio native, started racing karts at the age of twelve winning several Ohio championships. Three years later, he made the jump to open wheel cars at the age of 15 with Andretti Autosport. Competing in USF2000, he started his journey on the Mazda Road to Indy. Six years later, Veach has two years of USF2000, one year of Pro Mazda, and two years of Indy Lights experience under his belt. After coming close to winning the 2014 Indy Lights Championship title, Veach is looking onto 2016 with high expectations!<br>
+      Santiago was born in Miguelete, Uruguay.  He began his racing career in the Uruguayan National Championship Motorcycle Land Speed and started karting in 2002.  In his first year of karting, Santiago became the youngest to win the Uruguayan karting competition and ended in the National Championship Cadets category.<br>
       <br>
 
-      In 2016 Veach drives for Belardi Auto Racing in the Indy Lights Series.<br>
+      2008 - Won the Argentine Karting Championship Junior Pre category as well as the Apetura Championship Metropolitan Prokart Mini Junior category.<br>
       <br>
 
-      <a href="http://www.zachveach.com" class="linkarrow"><strong>WWW.ZACHVEACH.COM</strong></a>
+      2009 - Earned the title of National Champion Master Category and added the title of Champion Federation in the same category.<br>
+      <br>
+
+      2010 - Traveled to Europe to compete in the World Karting Championship.<br>
+      <br>
+
+      2011 - Competed in the European Championship and Italian Formula Abarth for the BVM team.  Was crowned European Champion Rookie with 11 podiums and 3 wins.<br>
+      <br>
+
+      2013 - Joined RP Motorsport to contest the season of the European F3 Open.<br>
+      <br>
+
+      2014 - Signed with Koiranen GP GP3 Series.<br>
+      <br>
+
+      2015 - Champion in the Pro Mazda Championship presented by Cooper Tires series.<br>
+      <br>
+
+      2016 - Runner-up in the Indy Lights Championship presented by Cooper Tires series with 4 wins, 7 podiums, 13 top-fives and 14 top-ten finishes.<br>
+      <br>
+
+      <a href="http://santiurrutia.com.uy" class="linkarrow"><strong>WWW.SANTIURRUTIA.COM.UY</strong></a>
     </div>
 
     <div class="three-col last">
-      <h3><a href="https://twitter.com/ZachVeach">@ZACHVEACH</a></h3>
+      <h3><a href="https://twitter.com/santi_urrutia">@SANTI_URRUTIA</a></h3>
 
       <script type="text/javascript">
         var userFeed = new Instafeed({
           get: 'user',
-          userId: 189928262,
-          accessToken: '189928262.3d6261f.f98e8ed153054828990bb93bf6c698c2',
+          userId: 36105938,
+          accessToken: '36105938.af76889.c8d1b33e36ae4263a105bf5acabc4f3e',
           limit: 12,
           template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>',
-          target: 'if-veach'
+          target: 'if-urrutia'
         });
         userFeed.run();
       </script>
-      <div id="if-veach" class="instafeed"></div>
+      <div id="if-urrutia" class="instafeed"></div>
 
       <div class="soclinks">
-        <a href="https://www.facebook.com/ZachVeachRacing">FACEBOOK</a> | <a href="http://www.twitter.com/ZachVeach">TWITTER</a> | <a href="http://instagram.com/zachveach">INSTAGRAM</a>
+        <a href="https://www.facebook.com/Santiago-Urrutia-Oficial-423891990978352/">FACEBOOK</a> | <a href="https://twitter.com/santi_urrutia">TWITTER</a>
       </div>
     </div>
 
@@ -66,52 +87,62 @@ include "header.php";
     <br>
     <br>
 
-    <div class="sideline"><h2>Felix Rosenqvist<!--  <span style="color: #FFFFFF;">#4</span> --></h2></div>
+    <div class="sideline"><h2>Shelby Blackstock</h2></div>
 
     <div class="three-col">
-      <img src="images/driver-felix-rosenqvist.jpg" alt="Felix Rosenqvist">
+      <img src="images/driver-shelby-blackstock.jpg" alt="Shelby Blackstock">
     </div>
 
     <div class="three-col">
-      <strong>Nationality:</strong> Swedish<br>
-      <strong>Birthdate:</strong> November 7, 1991<br>
-      <strong>Height/Weight:</strong> 170cm / 66kg<br>
-      <strong>Off the Track:</strong> Skiing, Skateboarding, Hiking, Music, Video Games<br>
+      <strong>Nationality:</strong> American<br>
+      <strong>Birthdate:</strong> February 23, 1990<br>
+      <strong>Hometown:</strong> Nashville, TN<br>
+      <strong>Residence:</strong> Charlotte, NC<br>
+      <strong>Off the Track:</strong> Cycling, Golf, Karting, Rock Climbing<br>
       <br>
 
-      A multiple title winner and frontrunner in every championship he ever contested, Sweden's Felix Rosenqvist is the reigning FIA F3 European Champion and one of the most exciting up-and-coming talents in international motorsport.<br>
+      2010 - Skip Barber Summer Series and Skip Barber Southern Regional Series<br>
       <br>
 
-      Having finished second in the FIA F3 European Championship in 2013, Felix went one better in 2015, lifting the prestigious title after a dominant season driving for Italian outfit Prema Powerteam. Felix Rosenqvist is the only driver in the history of Formula 3 to have won each of the accolades that make up the category's "grand slam": the European Championship, the Grand Prix de Pau (2014), the Masters of Formula 3 (twice in 2011 and 2013) and the blue-riband Macau Grand Prix (twice in 2014 and 2015).<br>
+      2011 - Fifth in the Skip Barber National Series with 2 podium finishes; 2 wins and finished fourth in the point standings in the Skip Barber Summer Series; Formula Ford 1600 and the Grand-Am Challenge<br>
       <br>
 
-      Felix is backed by the Mercedes-Benz young driver development programme and is the official Mercedes-AMG DTM test and reserve driver.<br>
+      2012 - Ninth in the Cooper Tires USF2000 Championship Powered by Mazda with 10 top-ten finishes; Fourth in the Cooper Tires USF2000 Winterfest with 4 top-five finishes out of 6 races; Grand-Am Continental Challenge with 4 top-ten finishes<br>
       <br>
 
-      In 2016 Felix will undertake his most intense season to date, racing on two continents. The packed agenda includes a campaign in the American Indy Lights series with Belardi Auto Racing, and an assault on the Blancpain GT Series Sprint Cup driving the new Mercedes-AMG GT3 for French squad AKKA-ASP.<br>
+      2013 - Third in Pro Mazda Championship Presented by Cooper Tires with 1 win, 7 podiums and 3 pole positions; Grand-Am Continental Challenge claiming 1 podium, 2 top-five and 5 top-ten finishes.<br>
       <br>
 
-      <a href="http://www.felixracing.se" class="linkarrow"><strong>WWW.FELIXRACING.SE</strong></a>
+      2014 - Fourth in Pro Mazda Championship Presented by Cooper Tires, with 6 podiums and 10 top-five drives; IMSA Continental Tire SportsCar Challenge claiming 1 win, 3 podiums, 1 pole and 1 fastest lap<br>
+      <br>
+
+      2015 - Tenth in Indy Lights Championship Presented by Cooper Tires with 1 podium, 3 top-fives and 11 top-ten finishes<br>
+      <br>
+
+      2016 - Eighth in Indy Lights Championship Presented by Cooper Tires with 5 top-fives and 7 top-ten finishes<br>
+      <br>
+
+      <a href="http://www.shelbyblackstock.com" class="linkarrow"><strong>WWW.SHELBYBLACKSTOCK.COM</strong></a>
     </div>
 
     <div class="three-col last">
-      <h3><a href="https://twitter.com/FRosenqvist">@FROSENQVIST</a></h3>
+      <h3><a href="https://twitter.com/Shelbilly">@SHELBILLY</a></h3>
 
       <script type="text/javascript">
         var userFeed = new Instafeed({
           get: 'user',
           userId: 36105938,
-          accessToken: '36105938.1677ed0.0238cdf9f88b422eb6c58540aacd6d34',
+          accessToken: '36105938.af76889.c8d1b33e36ae4263a105bf5acabc4f3e',
           limit: 12,
           template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>',
-          target: 'if-rosenqvist'
+          target: 'if-blackstock'
         });
         userFeed.run();
       </script>
-      <div id="if-rosenqvist" class="instafeed"></div>
+      <div id="if-blackstock" class="instafeed"></div>
 
       <div class="soclinks">
-        <a href="https://www.facebook.com/FelixRosenqvistOfficial">FACEBOOK</a> | <a href="https://twitter.com/FRosenqvist">TWITTER</a> | <a href="http://instagram.com/frosenqvist">INSTAGRAM</a>
+        <a href="https://www.facebook.com/ShelbyBlackstock/">FACEBOOK</a> | <a href="https://twitter.com/Shelbilly">TWITTER</a> | <a href="http://instagram.com/ShelbyBlackstock">INSTAGRAM</a>
       </div>
     </div>
 
