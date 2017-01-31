@@ -63,18 +63,15 @@ include "header.php";
     <div class="three-col last">
       <h3><a href="https://twitter.com/santi_urrutia">@SANTI_URRUTIA</a></h3>
 
-      <script type="text/javascript">
-        var userFeed = new Instafeed({
-          get: 'user',
-          userId: 36105938,
-          accessToken: '36105938.af76889.c8d1b33e36ae4263a105bf5acabc4f3e',
-          limit: 12,
-          template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>',
-          target: 'if-urrutia'
-        });
-        userFeed.run();
-      </script>
-      <div id="if-urrutia" class="instafeed"></div>
+      <div class="instagram-grid"> 
+        <?php
+        require_once "inc/Instagram.php";
+        $media = Instagram::getMediaByUserID(36105938, 12);
+        foreach($media as $key=>$value) {
+          echo '<a href="'.'https://www.instagram.com/p/'.$media[$key]->code.'" style="background-image: url('.$media[$key]->display_src.');"></a>';
+        }
+        ?>
+      </div>
 
       <div class="soclinks">
         <a href="https://www.facebook.com/Santiago-Urrutia-Oficial-423891990978352/">FACEBOOK</a> | <a href="https://twitter.com/santi_urrutia">TWITTER</a>
@@ -128,18 +125,14 @@ include "header.php";
     <div class="three-col last">
       <h3><a href="https://twitter.com/Shelbilly">@SHELBILLY</a></h3>
 
-      <script type="text/javascript">
-        var userFeed = new Instafeed({
-          get: 'user',
-          userId: 36105938,
-          accessToken: '36105938.af76889.c8d1b33e36ae4263a105bf5acabc4f3e',
-          limit: 12,
-          template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>',
-          target: 'if-blackstock'
-        });
-        userFeed.run();
-      </script>
-      <div id="if-blackstock" class="instafeed"></div>
+      <div class="instagram-grid"> 
+        <?php
+        $media = Instagram::getMediaByUserID(305671544, 12);
+        foreach($media as $key=>$value) {
+          echo '<a href="'.'https://www.instagram.com/p/'.$media[$key]->code.'" style="background-image: url('.$media[$key]->display_src.');"></a>';
+        }
+        ?>
+      </div>
 
       <div class="soclinks">
         <a href="https://www.facebook.com/ShelbyBlackstock/">FACEBOOK</a> | <a href="https://twitter.com/Shelbilly">TWITTER</a> | <a href="http://instagram.com/ShelbyBlackstock">INSTAGRAM</a>

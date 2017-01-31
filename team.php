@@ -79,6 +79,12 @@ include "header.php";
       Office Manager
     </div>
 
+    <div class="three-col">
+      <img src="images/francis-reilly.jpg" alt="Francis Reilly"><br>
+      <strong>FRANCIS REILLY</strong><br>
+      
+    </div>
+
     <div style="clear: both;"></div><br>
     <br>
     <br>

@@ -613,6 +613,30 @@ NAV:before, NAV:after { content: ""; display: table; }
   margin: 0 10px 6px 0;
 }
 
+.instagram-grid {
+  padding-top: 0.7em;
+  height: 290px;
+  overflow: hidden;
+}
+
+.instagram-grid A {
+  display: inline-block;
+  width: 29.5%;
+  margin: 0 10px 2% 0;
+  background-position: center center;
+  background-size: cover;
+}
+
+.instagram-grid A:after {
+  display: block;
+  content: "";
+  padding-top: 100%;
+}
+
+.instagram-grid A:nth-of-type(3n+3) {
+  margin-right: 0;
+}
+
 #schedule {
   height: 306px;
   overflow: hidden;
@@ -1042,7 +1066,8 @@ INPUT[type="submit"]:hover {
   color: #CCCCCC;
 }
 
-.drivers .three-col .instafeed {
+.drivers .three-col .instafeed,
+.drivers .three-col .instagram-grid {
   margin: 0.5em 0;
 }
 
@@ -1237,7 +1262,7 @@ INPUT[type="submit"]:hover {
 @media only screen and (max-width: 800px) {
   /* Small computer or landscape tablet */
   .content-width,
-  .cycle-slideshow DIV DIV {
+  .cycle-slideshow .text {
     width: 96%;
   }
 
@@ -1258,7 +1283,8 @@ INPUT[type="submit"]:hover {
     font-size: 2.1em;
   }
 
-  .instafeed IMG {
+  .instafeed IMG,
+  .instagram-grid A {
     margin: 0 7px 4px 0;
   }
 
@@ -1509,16 +1535,20 @@ INPUT[type="submit"]:hover {
     width: 7%;
   }
   
-  .instafeed {
+  .instafeed,
+  .instagram-grid {
     height: auto;
   }
 
-  .instafeed IMG {
+  .instafeed IMG,
+  .instagram-grid A,
+  .instagram-grid A:nth-of-type(3n+3) {
     width: 23.65%;
     margin: 0 1.8% 6px 0;
   }
 
-  .instafeed A:nth-child(4n) IMG {
+  .instafeed A:nth-child(4n) IMG,
+  .instagram-grid A:nth-of-type(4n+4) {
     margin-right: 0;
   }
 

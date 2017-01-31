@@ -9,14 +9,14 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
-    <meta name="description" content="<?php echo ($Description != "") ? $Description : "This is the home page of Belardi Auto Racing. We're an organization comprised of experienced individuals in the racing industry with an aggressive growth strategy and a strong commitment to finishing up front."; ?>">
-    <meta name="keywords" content="<?php echo ($Keywords != "") ? $Keywords : "Belardi, Belardi Auto Racing, Indy Racing, Indy Car Racing, Auto Racing, Liberty Engineering, Indy Lights, Road To Indy, Cooper Tires, Indiana Auto Racing, Brownsburg Indiana, indycar, fia standards, Mazda racing, Mazda car, Advanced Engine Research"; ?>">
+    <meta name="description" content="<?php echo (isset($Description)) ? $Description : "This is the home page of Belardi Auto Racing. We're an organization comprised of experienced individuals in the racing industry with an aggressive growth strategy and a strong commitment to finishing up front."; ?>">
+    <meta name="keywords" content="<?php echo (isset($Keywords)) ? $Keywords : "Belardi, Belardi Auto Racing, Indy Racing, Indy Car Racing, Auto Racing, Liberty Engineering, Indy Lights, Road To Indy, Cooper Tires, Indiana Auto Racing, Brownsburg Indiana, indycar, fia standards, Mazda racing, Mazda car, Advanced Engine Research"; ?>">
     <meta name="author" content="Foresite Group">
 
     <meta name="viewport" content="width=device-width">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css">
+    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php if ($TopDir == "") echo filemtime('inc/main.css'); ?>">
 
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.cycle2.min.js"></script>
@@ -73,7 +73,7 @@
       </div> <!-- END header-black -->
 
       <?php if ($PageTitle != "" && $Banner != "none") { ?>
-      <?php if ($Video != "") { ?>
+      <?php if (isset($Video)) { ?>
       <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.mb.YTPlayer.min.js"></script>
       <div id="video-header" data-property="{videoURL:'<?php echo $Video; ?>', containment:'#video-header', startAt:0, mute:true, autoPlay:true, loop:true, showControls:false, stopMovieOnBlur:false}"></div>
       <?php } else { ?>

@@ -170,18 +170,16 @@ endforeach;
     <div class="three-col">
       <h1>#BELARDIRACING</h1>
       <br>
-      <script type="text/javascript" src="inc/instafeed.min.js"></script>
-      <script type="text/javascript">
-        var userFeed = new Instafeed({
-          get: 'user',
-          userId: 36105938,
-          accessToken: '36105938.af76889.c8d1b33e36ae4263a105bf5acabc4f3e',
-          limit: 12,
-          template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>'
-        });
-        userFeed.run();
-      </script>
-      <div id="instafeed" class="instafeed"></div>
+
+      <div class="instagram-grid">
+        <?php
+        require_once "inc/Instagram.php";
+        $media = Instagram::getMediaByUserID(36105938, 12);
+        foreach($media as $key=>$value) {
+          echo '<a href="'.'https://www.instagram.com/p/'.$media[$key]->code.'" style="background-image: url('.$media[$key]->display_src.');"></a>';
+        }
+        ?>
+      </div>
 
       <a href="https://instagram.com/belardiracing" class="linkarrow">MORE</a>
     </div>
