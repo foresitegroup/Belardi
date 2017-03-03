@@ -31,7 +31,6 @@ endforeach;
     <div class="overlay"></div>
     <div class="text">
       <h1>ON THE PODIUM</h1>
-      Felix &amp; Zach take the podium!<br>
       <br>
       <a href="drivers.php">OUR DRIVERS</a>
     </div>

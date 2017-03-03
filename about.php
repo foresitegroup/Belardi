@@ -1,6 +1,6 @@
 <?php
 $PageTitle = "About";
-$Banner = "sub-banner-about.jpg";
+$Banner = "sub-banner-arrutia.jpg";
 $Description = "Based in Brownsburg, Indiana, Belardi Auto Racing is focused solely on the Indy Lights Presented by Cooper Tires series for 2015 and is the defending series champion.";
 $Keywords = "Belardi, Belardi Auto Racing, About Belardi, Belardi history, Belardi Auto Racing Specs, About the Belardi car, Indycar, Indy Racing, Indy Lights, Indy Lights Racing, Brian Belardi";
 include "header.php";
