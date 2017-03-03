@@ -1,6 +1,6 @@
 <?php
 $PageTitle = "Drivers";
-$Banner = "sub-banner-drivers.jpg";
+$Banner = "sub-banner-urrutia.jpg";
 $Description = "Meet the Belardi Auto Racing drivers.";
 $Keywords = "Belardi, Belardi Auto Racing, Belardi Racing, Meet the Belardi drivers, Belardi Racing drivers, Indy Lights, Cooper Tires, Road To Indy, Cooper Tires Championship, indy car drivers";
 include "header.php";
@@ -63,7 +63,7 @@ include "header.php";
     <div class="three-col last">
       <h3><a href="https://twitter.com/santi_urrutia">@SANTI_URRUTIA</a></h3>
 
-      <div class="instagram-grid"> 
+      <div class="instagram-grid">
         <?php
         require_once "inc/Instagram.php";
         $media = Instagram::getMediaByUserID(36105938, 12);
@@ -125,7 +125,7 @@ include "header.php";
     <div class="three-col last">
       <h3><a href="https://twitter.com/Shelbilly">@SHELBILLY</a></h3>
 
-      <div class="instagram-grid"> 
+      <div class="instagram-grid">
         <?php
         $media = Instagram::getMediaByUserID(305671544, 12);
         foreach($media as $key=>$value) {
@@ -144,47 +144,44 @@ include "header.php";
     <br>
     <br>
     <br>
-<!--
-    <div class="sideline"><h2>Felix Serrall&eacute;s <span style="color: #FFFFFF;">#4</span></h2></div>
+
+    <div class="sideline"><h2>Aaron Telitz</h2></div>
 
     <div class="three-col">
-      <img src="images/driver-felix-serralles.jpg" alt="Felix Serrall&eacute;s">
+      <img src="images/driver-aaron-telitz.jpg" alt="Aaron Telitz">
     </div>
 
     <div class="three-col">
-      <strong>Nationality:</strong> Puerto Rican<br>
-      <strong>Birthdate:</strong> June 24, 1992<br>
-      <strong>Height/Weight:</strong> 5'9" / 149 lbs.<br>
-      <strong>Off the Track:</strong> Triathlon, Basketball, Crossfit, Sport Shooting, Outdoor Activities<br>
+      <strong>Nationality:</strong> American<br>
+      <strong>Birthdate:</strong> December 13, 1991<br>
+      <strong>Hometown:</strong> Birchwood, WI<br>
+      <strong>Height/Weight:</strong> 5'7" / 140 lbs.<br>
+      <strong>Off the Track:</strong> Racing, Skateboarding, Wakeboarding, Snowboarding, Golf, and video games<br>
       <br>
 
-      Serrall&eacute;s joined the Skip Barber National Championship, finishing third. Afterwards, he debuted in the Formula Renault. By 2012, remained in the run for the British Formula Three Championship until the final race of the season, finishing third. He joined Team West-Tec for the 2014 season of the European Formula 3 Championship.<br>
+      As well liked off track as he is fiercely competitive on track, Aaron Telitz is one of the premier talents on the Mazda Road to Indy.<br>
       <br>
 
-      In 2015 Serall&eacute;s drives for Belardi Auto Racing in the Indy Lights Series.<br>
+      After winning a dramatic 2016 Pro Mazda Championship, Telitz now sits on the doorstep of the Indianapolis 500.  In 2017 Telitz will compete in the prestigious Indy Lights Championship.  For the second time in his career Telitz will step up to the next rung on the Mazda Road to Indy with scholarship support from Mazda North America and Mazdaspeed.  Only the fourth driver in the history of the Road to Indy to win multiple Mazda scholarships, he looks to follow other scholarship winners into the Verizon IndyCar Series.<br>
       <br>
 
-      <a href="http://www.felixserralles.com" class="linkarrow"><strong>WWW.FELIXSERRALLES.COM</strong></a>
+      <a href="http://www.aarontelitz.com/" class="linkarrow"><strong>WWW.AARONTELITZ.COM</strong></a>
     </div>
 
     <div class="three-col last">
-      <h3><a href="https://twitter.com/felixserralles">@FELIXSERRALLES</a></h3>
+      <h3><a href="https://twitter.com/AaronTelitz">@AARONTELITZ</a></h3>
 
-      <script type="text/javascript">
-        var userFeed = new Instafeed({
-          get: 'user',
-          userId: 36105938,
-          accessToken: '36105938.467ede5.271adab5a0bc423aade7dfc6f6f791f1',
-          limit: 12,
-          template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>',
-          target: 'if-serralles'
-        });
-        userFeed.run();
-      </script>
-      <div id="if-serralles" class="instafeed"></div>
+      <div class="instagram-grid">
+        <?php
+        $media = Instagram::getMediaByUserID(36105938, 12);
+        foreach($media as $key=>$value) {
+          echo '<a href="'.'https://www.instagram.com/p/'.$media[$key]->code.'" style="background-image: url('.$media[$key]->display_src.');"></a>';
+        }
+        ?>
+      </div>
 
       <div class="soclinks">
-        <a href="https://www.facebook.com/fjsracing">FACEBOOK</a> | <a href="https://twitter.com/felixserralles">TWITTER</a> | <a href="https://instagram.com/felixjuanserralles">INSTAGRAM</a>
+        <a href="https://www.facebook.com/Aaron-Telitz-254146281295285/">FACEBOOK</a> | <a href="https://twitter.com/AaronTelitz">TWITTER</a>
       </div>
     </div>
 
@@ -194,55 +191,6 @@ include "header.php";
     <br>
     <br>
 
-    <div class="sideline"><h2>Juan Piedrahita <span style="color: #FFFFFF;">#5</span></h2></div>
-
-    <div class="three-col">
-      <img src="images/driver-juan-piedrahita.jpg" alt="Juan Piedrahita">
-    </div>
-
-    <div class="three-col">
-      <strong>Nationality:</strong> Colombian<br>
-      <strong>Birthdate:</strong> July 27, 1992<br>
-      <strong>Height/Weight</strong>: 5'10" / 149 lbs.<br>
-      <strong>Off the Track:</strong> Karting, Soccer, Socializing, Travel, Boxing<br>
-      <br>
-
-      Juan Piedrahita, born in Bogot&aacute;, Colombia, began his driving career at age of 7 karting in Mexico. Piedrahita transitioned to auto racing in 2009 competing in the LATAM Challenge Series where he gained 2 podiums, finished 7th in overall points and 2nd in the rookie standings.<br>
-      <br>
-
-      Piedrahita will enter his second season in Indy Lights for 2015.<br>
-      <br>
-
-      <a href="http://www.juanchopiedrahitac.com" class="linkarrow"><strong>WWW.JUANCHOPIEDRAHITAC.COM</strong></a>
-    </div>
-
-    <div class="three-col last">
-      <h3><a href="https://twitter.com/jpiedrahita77">@JPIEDRAHITA77</a></h3>
-
-      <script type="text/javascript">
-        var userFeed = new Instafeed({
-          get: 'user',
-          userId: 479419864,
-          accessToken: '479419864.467ede5.52d04f84372b4ecb8feef8e064ae61fc',
-          limit: 12,
-          template: '<a href="{{link}}" target="new"><img src="{{image}}" /></a>',
-          target: 'if-piedrahita'
-        });
-        userFeed.run();
-      </script>
-      <div id="if-piedrahita" class="instafeed"></div>
-
-      <div class="soclinks">
-        <a href="https://www.facebook.com/juan.piedrahita.351">FACEBOOK</a> | <a href="https://twitter.com/jpiedrahita77">TWITTER</a> | <a href="https://instagram.com/juanpiedrahitac/">INSTAGRAM</a>
-      </div>
-    </div>
-
-    <div style="clear: both;"></div>
-
-    <br>
-    <br>
-    <br>
--->
     <hr>
 
     <br>
