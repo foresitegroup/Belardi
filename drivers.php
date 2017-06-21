@@ -6,8 +6,6 @@ $Keywords = "Belardi, Belardi Auto Racing, Belardi Racing, Meet the Belardi driv
 include "header.php";
 ?>
 
-<script type="text/javascript" src="inc/instafeed.min.js"></script>
-
 <div class="content-width main-content" style="text-align: center;">
   <strong>Belardi Auto Racing</strong> is a team with cars competing in the Indy Lights Presented by Cooper Tires Championship under the Verizon INDYCAR Series' Mazda Road to Indy development program.<br>
   <br>
@@ -65,10 +63,14 @@ include "header.php";
 
       <div class="instagram-grid">
         <?php
-        require_once "inc/Instagram.php";
-        $media = Instagram::getMediaByUserID(36105938, 12);
-        foreach($media as $key=>$value) {
-          echo '<a href="'.'https://www.instagram.com/p/'.$media[$key]->code.'" style="background-image: url('.$media[$key]->display_src.');"></a>';
+        // require_once "inc/Instagram.php";
+        // $media = Instagram::getMediaByUserID(36105938, 12);
+        // foreach($media as $key=>$value) {
+        //   echo '<a href="'.'https://www.instagram.com/p/'.$media[$key]->code.'" style="background-image: url('.$media[$key]->display_src.');"></a>';
+        // }
+        $json = json_decode(file_get_contents('https://www.instagram.com/belardiracing/?__a=1'));
+        foreach ($json->user->media->nodes as $key => $value) {
+          echo '<a href="'.'https://www.instagram.com/p/'.$value->code.'" style="background-image: url('.$value->display_src.');"></a>';
         }
         ?>
       </div>
@@ -127,9 +129,13 @@ include "header.php";
 
       <div class="instagram-grid">
         <?php
-        $media = Instagram::getMediaByUserID(305671544, 12);
-        foreach($media as $key=>$value) {
-          echo '<a href="'.'https://www.instagram.com/p/'.$media[$key]->code.'" style="background-image: url('.$media[$key]->display_src.');"></a>';
+        // $media = Instagram::getMediaByUserID(305671544, 12);
+        // foreach($media as $key=>$value) {
+        //   echo '<a href="'.'https://www.instagram.com/p/'.$media[$key]->code.'" style="background-image: url('.$media[$key]->display_src.');"></a>';
+        // }
+        $json = json_decode(file_get_contents('https://www.instagram.com/ShelbyBlackstock/?__a=1'));
+        foreach ($json->user->media->nodes as $key => $value) {
+          echo '<a href="'.'https://www.instagram.com/p/'.$value->code.'" style="background-image: url('.$value->display_src.');"></a>';
         }
         ?>
       </div>
@@ -173,9 +179,13 @@ include "header.php";
 
       <div class="instagram-grid">
         <?php
-        $media = Instagram::getMediaByUserID(36105938, 12);
-        foreach($media as $key=>$value) {
-          echo '<a href="'.'https://www.instagram.com/p/'.$media[$key]->code.'" style="background-image: url('.$media[$key]->display_src.');"></a>';
+        // $media = Instagram::getMediaByUserID(36105938, 12);
+        // foreach($media as $key=>$value) {
+        //   echo '<a href="'.'https://www.instagram.com/p/'.$media[$key]->code.'" style="background-image: url('.$media[$key]->display_src.');"></a>';
+        // }
+        $json = json_decode(file_get_contents('https://www.instagram.com/belardiracing/?__a=1'));
+        foreach ($json->user->media->nodes as $key => $value) {
+          echo '<a href="'.'https://www.instagram.com/p/'.$value->code.'" style="background-image: url('.$value->display_src.');"></a>';
         }
         ?>
       </div>
