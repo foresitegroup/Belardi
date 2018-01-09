@@ -40,24 +40,18 @@ include "header.php";
     </div>
 
     <div class="three-col">
-      <img src="images/mike-meyer.jpg" alt="Mike Meyer"><br>
-      <strong>MIKE MEYER</strong><br>
-      Mechanic
-    </div>
-
-    <div class="three-col last">
       <img src="images/jonathan-ghormley.jpg" alt="Jonathan Ghormley"><br>
       <strong>JONATHAN GHORMLEY</strong><br>
       Mechanic
     </div>
-
-    <div style="clear: both;"></div>
-
-    <div class="three-col">
+    
+    <div class="three-col last">
       <img src="images/kyle-burch.jpg" alt="Kyle Burch"><br>
       <strong>KYLE BURCH</strong><br>
       Mechanic
     </div>
+
+    <div style="clear: both;"></div>
 
     <div class="three-col">
       <img src="images/ross-mcleod.jpg" alt="Ross McLeod"><br>
@@ -65,19 +59,19 @@ include "header.php";
       Mechanic
     </div>
 
-    <div class="three-col last">
+    <div class="three-col">
       <img src="images/elliot-nunn.jpg" alt="Elliot Nunn"><br>
       <strong>ELLIOT NUNN</strong><br>
       Transportation/Logistics
     </div>
 
-    <div style="clear: both;"></div>
-
-    <div class="three-col">
+    <div class="three-col last">
       <img src="images/chuck-lessick.jpg" alt="Chuck Lessick"><br>
       <strong>CHUCK LESSICK</strong><br>
       Office Manager
     </div>
+
+    <div style="clear: both;"></div>
 
     <div class="three-col">
       <img src="images/francis-reilly.jpg" alt="Francis Reilly"><br>

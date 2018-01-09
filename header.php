@@ -30,7 +30,7 @@
         $(".fancybox").fancybox();
         $(".team-slideshow").cycle();
         var film_roll = new FilmRoll({ container: '#film-roll', scroll: false, pager: false, interval: 1, height: "364px" });
-        $("#video-header").mb_YTPlayer(); // This needs to be last for some reason
+        //$("#video-header").mb_YTPlayer(); // This needs to be last for some reason
       });
     </script>
 
