@@ -64,8 +64,8 @@ include "header.php";
       <div class="instagram-grid">
         <?php
         $json = json_decode(file_get_contents('https://www.instagram.com/santi_urrutia/?__a=1'));
-        foreach ($json->user->media->nodes as $key => $value) {
-          echo '<a href="'.'https://www.instagram.com/p/'.$value->code.'" style="background-image: url('.$value->display_src.');"></a>';
+        foreach ($json->graphql->user->edge_owner_to_timeline_media->edges as $key => $value) {
+          echo '<a href="'.'https://www.instagram.com/p/'.$value->node->shortcode.'" style="background-image: url('.$value->node->thumbnail_src.');"></a>';
         }
         ?>
       </div>
@@ -110,8 +110,8 @@ include "header.php";
       <div class="instagram-grid">
         <?php
         $json = json_decode(file_get_contents('https://www.instagram.com/aarontelitz/?__a=1'));
-        foreach ($json->user->media->nodes as $key => $value) {
-          echo '<a href="'.'https://www.instagram.com/p/'.$value->code.'" style="background-image: url('.$value->display_src.');"></a>';
+        foreach ($json->graphql->user->edge_owner_to_timeline_media->edges as $key => $value) {
+          echo '<a href="'.'https://www.instagram.com/p/'.$value->node->shortcode.'" style="background-image: url('.$value->node->thumbnail_src.');"></a>';
         }
         ?>
       </div>

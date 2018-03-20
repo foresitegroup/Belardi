@@ -172,14 +172,9 @@ endforeach;
 
       <div class="instagram-grid">
         <?php
-        // require_once "inc/Instagram.php";
-        // $media = Instagram::getMediaByUserID(36105938, 12);
-        // foreach($media as $key=>$value) {
-        //   echo '<a href="'.'https://www.instagram.com/p/'.$media[$key]->code.'" style="background-image: url('.$media[$key]->display_src.');"></a>';
-        // }
         $json = json_decode(file_get_contents('https://www.instagram.com/belardiracing/?__a=1'));
-        foreach ($json->user->media->nodes as $key => $value) {
-          echo '<a href="'.'https://www.instagram.com/p/'.$value->code.'" style="background-image: url('.$value->display_src.');"></a>';
+        foreach ($json->graphql->user->edge_owner_to_timeline_media->edges as $key => $value) {
+          echo '<a href="'.'https://www.instagram.com/p/'.$value->node->shortcode.'" style="background-image: url('.$value->node->thumbnail_src.');"></a>';
         }
         ?>
       </div>
