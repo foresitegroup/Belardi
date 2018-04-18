@@ -172,7 +172,8 @@ endforeach;
 
       <div class="instagram-grid">
         <?php
-        $json = json_decode(file_get_contents('https://www.instagram.com/belardiracing/?__a=1'));
+        $json = json_decode(file_get_contents('https://apinsta.herokuapp.com/u/belardiracing'));
+        // $json = json_decode(file_get_contents('https://www.instagram.com/belardiracing/?__a=1'));
         foreach ($json->graphql->user->edge_owner_to_timeline_media->edges as $key => $value) {
           echo '<a href="'.'https://www.instagram.com/p/'.$value->node->shortcode.'" style="background-image: url('.$value->node->thumbnail_src.');"></a>';
         }

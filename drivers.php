@@ -63,7 +63,8 @@ include "header.php";
 
       <div class="instagram-grid">
         <?php
-        $json = json_decode(file_get_contents('https://www.instagram.com/santi_urrutia/?__a=1'));
+        $json = json_decode(file_get_contents('https://apinsta.herokuapp.com/u/santi_urrutia'));
+        //$json = json_decode(file_get_contents('https://www.instagram.com/santi_urrutia/?__a=1'));
         foreach ($json->graphql->user->edge_owner_to_timeline_media->edges as $key => $value) {
           echo '<a href="'.'https://www.instagram.com/p/'.$value->node->shortcode.'" style="background-image: url('.$value->node->thumbnail_src.');"></a>';
         }
@@ -109,7 +110,8 @@ include "header.php";
 
       <div class="instagram-grid">
         <?php
-        $json = json_decode(file_get_contents('https://www.instagram.com/aarontelitz/?__a=1'));
+        $json = json_decode(file_get_contents('https://apinsta.herokuapp.com/u/aarontelitz'));
+        //$json = json_decode(file_get_contents('https://www.instagram.com/aarontelitz/?__a=1'));
         foreach ($json->graphql->user->edge_owner_to_timeline_media->edges as $key => $value) {
           echo '<a href="'.'https://www.instagram.com/p/'.$value->node->shortcode.'" style="background-image: url('.$value->node->thumbnail_src.');"></a>';
         }
