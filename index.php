@@ -114,7 +114,7 @@ endforeach;
       <script type="text/javascript" src="inc/twitterFetcher.js"></script>
       <script>
         var config1 = {
-          "id": '623913908877701120',
+          "profile": {"screenName": 'belardiracing'},
           "domId": 'twitter-feed',
           "maxTweets": 10,
           "enableLinks": true,
@@ -172,12 +172,24 @@ endforeach;
 
       <div class="instagram-grid">
         <?php
-        $json = json_decode(file_get_contents('https://apinsta.herokuapp.com/u/belardiracing'));
-        // $json = json_decode(file_get_contents('https://www.instagram.com/belardiracing/?__a=1'));
-        foreach ($json->graphql->user->edge_owner_to_timeline_media->edges as $key => $value) {
-          echo '<a href="'.'https://www.instagram.com/p/'.$value->node->shortcode.'" style="background-image: url('.$value->node->thumbnail_src.');"></a>';
-        }
+        // $json = json_decode(file_get_contents('https://apinsta.herokuapp.com/u/belardiracing'));
+        // foreach ($json->graphql->user->edge_owner_to_timeline_media->edges as $key => $value) {
+        //   echo '<a href="'.'https://www.instagram.com/p/'.$value->node->shortcode.'" style="background-image: url('.$value->node->thumbnail_src.');"></a>';
+        // }
         ?>
+
+        <!-- BEGIN Instagram Feed Wordpress plugin -->
+        <!-- <?php //require_once('news/wp-blog-header.php'); ?>
+        <link rel='stylesheet' href='<?php //echo $TopDir; ?>news/wp-content/plugins/instagram-feed/css/sb-instagram.min.css' type='text/css' media='all' />
+        <?php //echo do_shortcode('[instagram-feed]'); ?>
+        <script type='text/javascript'>
+          var sbiajaxurl = "<?php //echo $TopDir; ?>news/wp-admin/admin-ajax.php";
+          var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
+        </script>
+        <script type='text/javascript' src='<?php //echo $TopDir; ?>news/wp-content/plugins/instagram-feed/js/sb-instagram.min.js'></script> -->
+        <!-- END Instagram Feed Wordpress plugin -->
+
+        <img src="images/instagram-placeholder.png" alt="" style="max-width: 100%; height: auto;">
       </div>
 
       <a href="https://instagram.com/belardiracing" class="linkarrow">MORE</a>
